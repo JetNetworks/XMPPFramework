@@ -8,6 +8,6 @@
       location = "group:iPhoneXMPP/iPhoneXMPP.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:iPhoneXMPP/../../../KissXML/KissXML.xcodeproj">
+      location = "group:../Vendor/KissXML/KissXML.xcodeproj">
    </FileRef>
 </Workspace>
