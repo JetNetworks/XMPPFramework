@@ -2,7 +2,7 @@
 #import "XMPPModule.h"
 
 #if TARGET_OS_IPHONE
-  #import "DDXML.h"
+@import KissXML;
 #endif
 
 #define _XMPP_PRIVACY_H

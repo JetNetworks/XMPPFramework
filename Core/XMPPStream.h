@@ -5,7 +5,7 @@
 #import "GCDMulticastDelegate.h"
 
 #if TARGET_OS_IPHONE
-  #import "DDXML.h"
+@import KissXML;
 #endif
 
 @class XMPPSRVResolver;

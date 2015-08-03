@@ -4,7 +4,8 @@
 #import <libxml/parserInternals.h>
 
 #if TARGET_OS_IPHONE
-  #import "DDXMLPrivate.h"
+@import KissXML;
+#import <KissXML/DDXMLPrivate.h>
 #endif
 
 #if ! __has_feature(objc_arc)
