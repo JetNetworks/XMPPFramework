@@ -65,6 +65,8 @@ static void xmpp_onDidReadRoot(XMPPParser *parser, xmlNodePtr root)
 		//   if 1 do a recursive copy (properties, namespaces and children when applicable)
 		//   if 2 copy properties and namespaces (when applicable)
 		
+        // NOTE: This method purposefully accesses private methods of KissXML; only on iOS.
+        
 		xmlNodePtr rootCopy = xmlCopyNode(root, 2);
 		DDXMLElement *rootCopyWrapper = [DDXMLElement nodeWithElementPrimitive:rootCopy owner:nil];
 		
@@ -90,6 +92,8 @@ static void xmpp_onDidReadElement(XMPPParser *parser, xmlNodePtr child)
 	// We don't need to fix namespaces since we used xmpp_xmlSearchNs() to ensure we never created any
 	// namespaces outside the subtree of the child in the first place.
 	
+    // NOTE: This method purposefully accesses private methods of KissXML; only on iOS.
+    
 	[DDXMLNode detachChild:child andClean:YES andFixNamespaces:NO];
 	
 	DDXMLElement *childWrapper = [DDXMLElement nodeWithElementPrimitive:child owner:nil];
