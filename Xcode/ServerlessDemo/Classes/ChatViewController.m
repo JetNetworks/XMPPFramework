@@ -1,15 +1,16 @@
+
+@import KissXML;
+
 #import "ChatViewController.h"
 #import "ServerlessDemoAppDelegate.h"
 #import "Service.h"
 #import "Message.h"
-#import "DDXML.h"
 #import "XMPPStream.h"
 #import "XMPPJID.h"
 #import "XMPPIQ.h"
 #import "XMPPMessage.h"
 #import "XMPPPresence.h"
 #import "NSXMLElement+XMPP.h"
-#import "NSString+DDXML.h"
 #import "DDLog.h"
 
 #import <arpa/inet.h>

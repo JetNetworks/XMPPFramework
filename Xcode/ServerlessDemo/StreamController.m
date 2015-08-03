@@ -1,3 +1,6 @@
+
+@import KissXML;
+
 #import "StreamController.h"
 #import "ServerlessDemoAppDelegate.h"
 #import "GCDAsyncSocket.h"
@@ -5,7 +8,6 @@
 #import "Message.h"
 #import "XMPP.h"
 #import "NSXMLElement+XMPP.h"
-#import "NSString+DDXML.h"
 #import "DDLog.h"
 
 // Log levels: off, error, warn, info, verbose
