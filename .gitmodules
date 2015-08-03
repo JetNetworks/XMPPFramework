@@ -2,3 +2,7 @@
 	path = Vendor/facebook-ios-sdk
 	url = git://github.com/facebook/facebook-ios-sdk.git
 	ignore = dirty
+[submodule "Vendor/KissXML"]
+	path = Vendor/KissXML
+	url = https://github.com/cantinac/KissXML.git
+	ignore = dirty
