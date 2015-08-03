@@ -5,6 +5,9 @@
       location = "group:XMPPFrameworkTests/XMPPFrameworkTests.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:../../Vendor/KissXML/KissXML.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
