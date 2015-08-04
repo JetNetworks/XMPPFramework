@@ -4,9 +4,14 @@
 #import <libxml/parserInternals.h>
 
 #if TARGET_OS_IPHONE
+#if __IPHONE_OS_VERSION_MIN_REQUIRED < 80000
+#import <KissXML/KissXML.h>
+#else
 @import KissXML;
+#endif
 #import <KissXML/DDXMLPrivate.h>
 #endif
+
 
 #if ! __has_feature(objc_arc)
 #warning This file must be compiled with ARC. Use -fobjc-arc flag (or convert project to ARC).
