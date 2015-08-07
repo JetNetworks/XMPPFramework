@@ -1,4 +1,6 @@
+
 #import <Foundation/Foundation.h>
+
 #import "XMPPJID.h"
 
 #if TARGET_OS_IPHONE
