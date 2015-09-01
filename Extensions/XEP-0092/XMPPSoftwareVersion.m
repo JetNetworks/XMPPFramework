@@ -20,6 +20,7 @@
 - (id)initWithDispatchQueue:(dispatch_queue_t)queue
 {
     NSString *name = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleDisplayName"];
+    name = name ?: [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleName"];
     NSString *version = [[NSBundle mainBundle] objectForInfoDictionaryKey:(NSString *)kCFBundleVersionKey];
 #if TARGET_OS_IPHONE
     NSString *os = [NSString stringWithFormat:@"%@ %@",[[UIDevice currentDevice] systemName],[[UIDevice currentDevice] systemVersion]];
