@@ -779,7 +779,6 @@
 
 /* Begin PBXFileReference section */
 		570BEA911B8DFC7A00A1E65D /* KissXML.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KissXML.xcodeproj; path = ../../Vendor/KissXML/KissXML.xcodeproj; sourceTree = "<group>"; };
-		570BEAB11B8E8EA500A1E65D /* XMPP-bk.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = "XMPP-bk.modulemap"; sourceTree = "<group>"; };
 		570BEAB91B8FA8D600A1E65D /* XMPP-framework-link-test-osx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XMPP-framework-link-test-osx.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		570BEABB1B8FA8D600A1E65D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		570BEABC1B8FA8D600A1E65D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -2018,7 +2017,6 @@
 			children = (
 				5799ADCD1B713FCB000FCD95 /* Info.plist */,
 				5793F4C81B7902FE006CCEA1 /* XMPP.modulemap */,
-				570BEAB11B8E8EA500A1E65D /* XMPP-bk.modulemap */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
