@@ -1,4 +1,5 @@
-#import "XMPP.h"
+
+#import "XMPPCore.h"
 #import "XMPPTime.h"
 
 #define _XMPP_AUTO_TIME_H

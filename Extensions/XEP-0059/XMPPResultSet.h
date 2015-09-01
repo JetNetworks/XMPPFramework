@@ -8,6 +8,8 @@
 #endif
 #endif
 
+#import "NSXMLElement+XEP_0059.h"
+
 /**
  * The XMPPResultSet class represents an <set xmlns='http://jabber.org/protocol/rsm'> element form XEP-0059.
  * It extends NSXMLElement.

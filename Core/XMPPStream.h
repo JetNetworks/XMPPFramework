@@ -1,8 +1,9 @@
 #import <Foundation/Foundation.h>
+
 #import "XMPPSASLAuthentication.h"
 #import "XMPPCustomBinding.h"
+
 #import "GCDAsyncSocket.h"
-#import "GCDMulticastDelegate.h"
 
 #if TARGET_OS_IPHONE
 #if __IPHONE_OS_VERSION_MIN_REQUIRED < 80000

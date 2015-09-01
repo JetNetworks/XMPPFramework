@@ -1,7 +1,10 @@
 #import "XMPPMUC.h"
-#import "XMPPFramework.h"
+
 #import "XMPPLogging.h"
 #import "XMPPIDTracker.h"
+#import "NSXMLElement+XMPP.h"
+
+#import "XMPP.h"
 
 #if DEBUG
   static const int xmppLogLevel = XMPP_LOG_LEVEL_VERBOSE;

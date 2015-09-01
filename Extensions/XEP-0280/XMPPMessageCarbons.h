@@ -1,4 +1,6 @@
 #import "XMPPModule.h"
+#import "XMPPMessage+XEP_0280.h"
+
 @class XMPPMessage;
 @class XMPPIDTracker;
 

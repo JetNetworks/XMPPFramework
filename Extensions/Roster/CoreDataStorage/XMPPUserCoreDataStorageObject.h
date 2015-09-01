@@ -1,3 +1,4 @@
+
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
@@ -7,8 +8,8 @@
     #import <Cocoa/Cocoa.h>
 #endif
 
+#import "XMPPCore.h"
 #import "XMPPUser.h"
-#import "XMPP.h"
 
 @class XMPPGroupCoreDataStorageObject;
 @class XMPPResourceCoreDataStorageObject;

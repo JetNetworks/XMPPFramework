@@ -1,11 +1,13 @@
+
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
-#import "XMPP.h"
+#import "XMPPCoreDataStorage.h"
+
+#import "XMPPCore.h"
 #import "XMPPRoom.h"
 #import "XMPPRoomMessageCoreDataStorageObject.h"
 #import "XMPPRoomOccupantCoreDataStorageObject.h"
-#import "XMPPCoreDataStorage.h"
 
 
 @interface XMPPRoomCoreDataStorage : XMPPCoreDataStorage <XMPPRoomStorage>

@@ -1,10 +1,16 @@
+
+#import "XMPPStream.h"
+
 #import "XMPPMessageDeliveryReceipts.h"
 #import "XMPPMessage+XEP_0184.h"
-#import "XMPPFramework.h"
+#import "NSXMLElement+XMPP.h"
+
+#import "XMPP.h"
 
 #if ! __has_feature(objc_arc)
 #warning This file must be compiled with ARC. Use -fobjc-arc flag (or convert project to ARC).
 #endif
+
 
 #define XMLNS_URN_XMPP_RECEIPTS @"urn:xmpp:receipts"
 

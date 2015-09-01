@@ -1,4 +1,5 @@
-#import "XMPP.h"
+
+#import "XMPPCore.h"
 #import "NSXMLElement+XEP_0203.h"
 #import "XMPPRosterMemoryStoragePrivate.h"
 

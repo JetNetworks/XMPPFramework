@@ -1,4 +1,5 @@
 #import "XMPPRoomOccupantHybridMemoryStorageObject.h"
+#import "NSXMLElement+XMPP.h"
 
 
 @implementation XMPPRoomOccupantHybridMemoryStorageObject

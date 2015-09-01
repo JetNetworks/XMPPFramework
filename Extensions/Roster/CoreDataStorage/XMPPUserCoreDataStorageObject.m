@@ -1,8 +1,11 @@
-#import "XMPP.h"
-#import "XMPPRosterCoreDataStorage.h"
+
 #import "XMPPUserCoreDataStorageObject.h"
+
+#import "XMPPCore.h"
+#import "XMPPRosterCoreDataStorage.h"
 #import "XMPPResourceCoreDataStorageObject.h"
 #import "XMPPGroupCoreDataStorageObject.h"
+#import "NSXMLElement+XMPP.h"
 #import "NSNumber+XMPP.h"
 #import "XMPPLogging.h"
 

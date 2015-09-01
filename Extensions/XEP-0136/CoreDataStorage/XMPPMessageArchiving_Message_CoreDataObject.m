@@ -1,4 +1,5 @@
 #import "XMPPMessageArchiving_Message_CoreDataObject.h"
+#import "NSXMLElement+XMPP.h"
 
 
 @interface XMPPMessageArchiving_Message_CoreDataObject ()

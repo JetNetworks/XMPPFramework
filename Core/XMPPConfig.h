@@ -1,0 +1,139 @@
+//
+//  XMPPConfig.h
+//
+//  This file is designed to be customized by YOU.
+//
+//  Copy this file and rename it to "XMPPFramework.h". Then add it to your project.
+//  As you pick and choose which parts of the framework you need for your application, add them to this header file.
+//
+//  Various modules available within the framework optionally interact with each other.
+//  E.g. The XMPPPing module utilizes the XMPPCapabilities module to advertise support XEP-0199.
+//
+//  However, the modules can only interact if they're both added to your xcode project.
+//  E.g. If XMPPCapabilities isn't a part of your xcode project, then XMPPPing shouldn't attempt to reference it.
+//
+//  So how do the individual modules know if other modules are available?
+//  Via this header file.
+//
+//  If you #import "XMPPCapabilities.h" in this file, then _XMPP_CAPABILITIES_H will be defined for other modules.
+//  And they can automatically take advantage of it.
+//
+
+//  CUSTOMIZE ME !
+//  THIS HEADER FILE SHOULD BE TAILORED TO MATCH YOUR APPLICATION.
+
+//  The following is standard:
+
+#import "XMPPCore.h"
+
+// List the modules you're using here:
+// (the following may not be a complete list)
+
+#define USE_XMPP_CORE_DATA 1
+
+#define USE_XMPP_EXT_BANDWIDTH_MONITOR 1
+#define USE_XMPP_EXT_FILE_TRANSFER 1
+#define USE_XMPP_EXT_GOOGLE_SHARED_STATUS 1
+#define USE_XMPP_EXT_PROCESS_ONE 0
+#define USE_XMPP_EXT_RECONNECT 1
+#define USE_XMPP_EXT_ROSTER 1
+#define USE_XMPP_EXT_SYSTEM_INPUT_ACTIVITY_MONITOR 0
+
+#define USE_XMPP_XEP_0009 1
+#define USE_XMPP_XEP_0009_JABBER_RPC USE_XMPP_XEP_0009
+
+#define USE_XMPP_XEP_0012 1
+#define USE_XMPP_XEP_0012_LAST_ACTIVITY USE_XMPP_XEP_0012
+
+#define USE_XMPP_XEP_0016 1
+#define USE_XMPP_XEP_0016_PRIVACY_LISTS USE_XMPP_XEP_0016
+
+#define USE_XMPP_XEP_0045 1
+#define USE_XMPP_XEP_0045_MULTI_USER_CHAT USE_XMPP_XEP_0045
+
+#define USE_XMPP_XEP_0054 1
+#define USE_XMPP_XEP_0054_VCARD_TEMP USE_XMPP_XEP_0054
+
+#define USE_XMPP_XEP_0059 1
+#define USE_XMPP_XEP_0059_RESULT_SET_MANAGEMENT USE_XMPP_XEP_0059
+
+#define USE_XMPP_XEP_0060 1
+#define USE_XMPP_XEP_0060_PUBLISH_SUBSCRIBE USE_XMPP_XEP_0060
+
+#define USE_XMPP_XEP_0065 1
+#define USE_XMPP_XEP_0065_SOCKS5_BYTESTREAMS USE_XMPP_XEP_0065
+
+#define USE_XMPP_XEP_0066 1
+#define USE_XMPP_XEP_0066_OUT_OF_BAND_DATA USE_XMPP_XEP_0066
+
+#define USE_XMPP_XEP_0077 1
+#define USE_XMPP_XEP_0077_IN_BAND_REGISTRATION USE_XMPP_XEP_0077
+
+#define USE_XMPP_XEP_0082 1
+#define USE_XMPP_XEP_0082_XMPP_DATE_AND_TIME_PROFILES USE_XMPP_XEP_0082
+
+#define USE_XMPP_XEP_0085 1
+#define USE_XMPP_XEP_0085_CHAT_STATE_NOTIFICATIONS USE_XMPP_XEP_0085
+
+#define USE_XMPP_XEP_0092 1
+#define USE_XMPP_XEP_0092_SOFTWARE_VERSION USE_XMPP_XEP_0092
+
+#define USE_XMPP_XEP_0100 1
+#define USE_XMPP_XEP_0100_GATEWAY_INTERACTION USE_XMPP_XEP_0100
+
+#define USE_XMPP_XEP_0106 1
+#define USE_XMPP_XEP_0106_JID_ESCAPING USE_XMPP_XEP_0106
+
+#define USE_XMPP_XEP_0115 1
+#define USE_XMPP_XEP_0115_ENTITY_CAPABILITIES USE_XMPP_XEP_0115
+
+#define USE_XMPP_XEP_0136 1
+#define USE_XMPP_XEP_0136_MESSAGE_ARCHIVING USE_XMPP_XEP_0136
+
+#define USE_XMPP_XEP_0147 1
+#define USE_XMPP_XEP_0147_URI_SCHEME_QUERY_COMPONENTS USE_XMPP_XEP_0147
+
+#define USE_XMPP_XEP_0153 (USE_XMPP_XEP_0054 && 1)
+#define USE_XMPP_XEP_0153_VCARD_BASED_AVATARS USE_XMPP_XEP_0153
+
+#define USE_XMPP_XEP_0172 1
+#define USE_XMPP_XEP_0172_USER_NICKNAME USE_XMPP_XEP_0172
+
+#define USE_XMPP_XEP_0184 1
+#define USE_XMPP_XEP_0184_MESSAGE_DELIVERY_RECEIPTS USE_XMPP_XEP_0184
+
+#define USE_XMPP_XEP_0191 1
+#define USE_XMPP_XEP_0191_BLOCKING_COMMAND USE_XMPP_XEP_0191
+
+#define USE_XMPP_XEP_0198 1
+#define USE_XMPP_XEP_0198_STREAM_MANAGEMENT USE_XMPP_XEP_0198
+
+#define USE_XMPP_XEP_0199 1
+#define USE_XMPP_XEP_0199_PING USE_XMPP_XEP_0199
+
+#define USE_XMPP_XEP_0202 1
+#define USE_XMPP_XEP_0202_ENTITY_TIME USE_XMPP_XEP_0202
+
+#define USE_XMPP_XEP_0203 1
+#define USE_XMPP_XEP_0203_DELAYED_DELIVERY USE_XMPP_XEP_0203
+
+#define USE_XMPP_XEP_0223 1
+#define USE_XMPP_XEP_0223_PERSISTENT_STORAGE_OF_PRIVATE_DATA_VIA_PUBSUB USE_XMPP_XEP_0223
+
+#define USE_XMPP_XEP_0224 1
+#define USE_XMPP_XEP_0224_ATTENTION USE_XMPP_XEP_0224
+
+#define USE_XMPP_XEP_0280 1
+#define USE_XMPP_XEP_0280_MESSAGE_CARBONS USE_XMPP_XEP_0280
+
+#define USE_XMPP_XEP_0297 1
+#define USE_XMPP_XEP_0297_STANZA_FORWARDING USE_XMPP_XEP_0297
+
+#define USE_XMPP_XEP_0308 1
+#define USE_XMPP_XEP_0308_LAST_MESSAGE_CORRECTION USE_XMPP_XEP_0308
+
+#define USE_XMPP_XEP_0333 1
+#define USE_XMPP_XEP_0333_CHAT_MARKERS USE_XMPP_XEP_0333
+
+#define USE_XMPP_XEP_0335 1
+#define USE_XMPP_XEP_0335_JSON_CONTAINERS USE_XMPP_XEP_0335

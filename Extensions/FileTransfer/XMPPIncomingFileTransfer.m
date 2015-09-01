@@ -11,6 +11,7 @@
 #import "XMPPConstants.h"
 #import "XMPPLogging.h"
 #import "idn-int.h"
+#import "NSXMLElement+XMPP.h"
 #import "NSNumber+XMPP.h"
 #import "NSData+XMPP.h"
 

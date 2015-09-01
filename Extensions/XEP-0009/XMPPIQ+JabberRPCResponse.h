@@ -1,5 +1,5 @@
 //
-//  XMPPIQ+JabberRPCResonse.h
+//  XMPPIQ+JabberRPCResponse.h
 //  XEP-0009
 //
 //  Created by Eric Chamberlain on 5/25/10.
@@ -21,7 +21,7 @@ typedef enum {
 } JabberRPCElementType;
 
 
-@interface XMPPIQ(JabberRPCResonse)
+@interface XMPPIQ(JabberRPCResponse)
 
 -(NSXMLElement *)methodResponseElement;
 

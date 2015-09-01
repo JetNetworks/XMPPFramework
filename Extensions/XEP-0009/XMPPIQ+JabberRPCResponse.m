@@ -5,7 +5,7 @@
 //  Created by Eric Chamberlain on 5/25/10.
 //
 
-#import "XMPPIQ+JabberRPCResonse.h"
+#import "XMPPIQ+JabberRPCResponse.h"
 #import "XMPPJabberRPCModule.h"
 #import "XMPPLogging.h"
 #import "NSData+XMPP.h"

@@ -7,10 +7,11 @@
 #if TARGET_OS_IPHONE
 #if __IPHONE_OS_VERSION_MIN_REQUIRED < 80000
 #import <KissXML/KissXML.h>
+#import <KissXML/DDXMLPrivate.h>
 #else
 @import KissXML;
+@import KissXML.Private;
 #endif
-#import <KissXML/DDXMLPrivate.h>
 #endif
 
 

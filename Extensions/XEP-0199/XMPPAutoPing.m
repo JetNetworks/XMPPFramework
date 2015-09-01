@@ -1,6 +1,7 @@
 #import "XMPPAutoPing.h"
+
+#import "XMPPCore.h"
 #import "XMPPPing.h"
-#import "XMPP.h"
 #import "XMPPLogging.h"
 
 #if ! __has_feature(objc_arc)

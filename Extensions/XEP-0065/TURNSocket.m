@@ -1,9 +1,11 @@
 #import "TURNSocket.h"
-#import "XMPP.h"
+
+#import "XMPPCore.h"
 #import "XMPPLogging.h"
 #import "GCDAsyncSocket.h"
 #import "NSData+XMPP.h"
 #import "NSNumber+XMPP.h"
+#import "NSXMLElement+XMPP.h"
 
 #if ! __has_feature(objc_arc)
 #warning This file must be compiled with ARC. Use -fobjc-arc flag (or convert project to ARC).

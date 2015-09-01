@@ -1,9 +1,12 @@
-#import "XMPP.h"
+
 #import "XMPPRoom.h"
+
+#import "XMPPCore.h"
 #import "XMPPIDTracker.h"
 #import "XMPPMessage+XEP0045.h"
 #import "XMPPLogging.h"
-
+#import "NSXMLElement+XMPP.h"
+#import "GCDMulticastDelegate.h"
 
 // Log levels: off, error, warn, info, verbose
 // Log flags: trace

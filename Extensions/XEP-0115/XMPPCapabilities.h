@@ -1,5 +1,6 @@
 #import <Foundation/Foundation.h>
-#import "XMPP.h"
+
+#import "XMPPCore.h"
 
 #define _XMPP_CAPABILITIES_H
 

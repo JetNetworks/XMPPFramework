@@ -1,6 +1,10 @@
+
 #import "XMPPGoogleSharedStatus.h"
+
+#import "XMPPCore.h"
+#import "NSXMLElement+XMPP.h"
+
 #import "XMPP.h"
-#import "XMPPFramework.h"
 
 #if ! __has_feature(objc_arc)
 #warning This file must be compiled with ARC. Use -fobjc-arc flag (or convert project to ARC).
@@ -9,6 +13,7 @@
 #define GOOGLE_SHARED_STATUS @"google:shared-status"
 #define GOOGLE_DISCO_INFO  @"http://jabber.org/protocol/disco#info"
 #define GOOGLE_PRESENCE_PRIORITY @"24"
+
 
 // Dictionary keys to access shared status information.
 NSString *const XMPPGoogleSharedStatusShow = @"show";
@@ -55,7 +60,7 @@ NSString *const XMPPGoogleSharedStatusShowIdle = @"away";
 {	
 	if ([super activate:aXmppStream])
 	{
-		
+
 #ifdef _XMPP_SYSTEM_INPUT_ACTIVITY_MONITOR_H
 		[xmppStream autoAddDelegate:self
 					  delegateQueue:moduleQueue
@@ -70,7 +75,6 @@ NSString *const XMPPGoogleSharedStatusShowIdle = @"away";
 
 - (void)deactivate
 {
-	
 #ifdef _XMPP_SYSTEM_INPUT_ACTIVITY_MONITOR_H
 	[xmppStream removeAutoDelegate:self
 					 delegateQueue:moduleQueue

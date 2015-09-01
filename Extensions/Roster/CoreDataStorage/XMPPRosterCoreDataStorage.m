@@ -1,11 +1,14 @@
+
 #import "XMPPRosterCoreDataStorage.h"
+
+#import "XMPPCore.h"
 #import "XMPPGroupCoreDataStorageObject.h"
 #import "XMPPUserCoreDataStorageObject.h"
 #import "XMPPResourceCoreDataStorageObject.h"
 #import "XMPPRosterPrivate.h"
 #import "XMPPCoreDataStorageProtected.h"
-#import "XMPP.h"
 #import "XMPPLogging.h"
+#import "NSXMLElement+XMPP.h"
 #import "NSNumber+XMPP.h"
 
 #if ! __has_feature(objc_arc)

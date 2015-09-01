@@ -1,6 +1,7 @@
 #import <Foundation/Foundation.h>
 #import "XMPPElement.h"
 
+
 /**
  * The XMPPPresence class represents a <presence> element.
  * It extends XMPPElement, which in turn extends NSXMLElement.

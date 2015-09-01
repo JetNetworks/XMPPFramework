@@ -1,4 +1,5 @@
 #import "XMPPModule.h"
+#import "XMPPMessage+XEP_0184.h"
 
 #define _XMPP_MESSAGE_DELIVERY_RECEIPTS_H
 

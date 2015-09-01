@@ -8,7 +8,8 @@
 
 
 #import <Foundation/Foundation.h>
-#import "XMPP.h"
+
+#import "XMPPCore.h"
 
 @class XMPPvCardTemp;
 @class XMPPIDTracker;

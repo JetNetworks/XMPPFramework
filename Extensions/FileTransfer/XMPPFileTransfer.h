@@ -4,10 +4,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "XMPP.h"
+
+#import "XMPPCore.h"
 #import "XMPPModule.h"
-#import "TURNSocket.h"
-#import "GCDAsyncSocket.h"
 
 @class XMPPIDTracker;
 

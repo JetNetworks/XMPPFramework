@@ -1,5 +1,7 @@
+
 #import <Foundation/Foundation.h>
-#import "XMPP.h"
+
+#import "XMPPCore.h"
 
 
 @protocol XMPPResource <NSObject>

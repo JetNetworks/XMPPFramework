@@ -1,6 +1,7 @@
 #import "XMPPMessageArchiving.h"
-#import "XMPPFramework.h"
+
 #import "XMPPLogging.h"
+#import "NSXMLElement+XMPP.h"
 #import "NSNumber+XMPP.h"
 
 #if ! __has_feature(objc_arc)

@@ -1,13 +1,18 @@
-#import "XMPP.h"
+
+#import <objc/runtime.h>
+#import <libkern/OSAtomic.h>
+
+#import "XMPPStream.h"
+
+#import "XMPPCore.h"
 #import "XMPPParser.h"
 #import "XMPPLogging.h"
 #import "XMPPInternal.h"
 #import "XMPPIDTracker.h"
 #import "XMPPSRVResolver.h"
+#import "NSXMLElement+XMPP.h"
 #import "NSData+XMPP.h"
-
-#import <objc/runtime.h>
-#import <libkern/OSAtomic.h>
+#import "GCDMulticastDelegate.h"
 
 #if TARGET_OS_IPHONE
   // Note: You may need to add the CFNetwork Framework to your project

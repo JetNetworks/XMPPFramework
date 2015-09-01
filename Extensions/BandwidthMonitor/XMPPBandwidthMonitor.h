@@ -7,7 +7,8 @@
 **/
 
 #import <Foundation/Foundation.h>
-#import "XMPP.h"
+
+#import "XMPPCore.h"
 
 #define _XMPP_BANDWIDTH_MONITOR_H
 

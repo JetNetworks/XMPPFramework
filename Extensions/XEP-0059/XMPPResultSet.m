@@ -1,4 +1,6 @@
+
 #import "XMPPResultSet.h"
+
 #import "NSXMLElement+XMPP.h"
 
 #import <objc/runtime.h>
