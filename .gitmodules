@@ -5,7 +5,9 @@
 [submodule "Vendor/KissXML"]
 	path = Vendor/KissXML
 	url = https://github.com/cantinac/KissXML.git
+	branch = swift2-and-frameworks
 	ignore = dirty
 [submodule "Vendor/CocoaLumberjack"]
 	path = Vendor/CocoaLumberjack
 	url = https://github.com/cantinac/CocoaLumberjack.git
+	ignore = dirty
