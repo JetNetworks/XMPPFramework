@@ -1,5 +1,7 @@
+
 #import "XMPPIDTracker.h"
-#import "XMPP.h"
+
+#import "XMPPCore.h"
 #import "XMPPLogging.h"
 
 #if ! __has_feature(objc_arc)

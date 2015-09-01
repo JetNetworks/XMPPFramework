@@ -8,6 +8,7 @@
 #import "XMPPSRVResolver.h"
 #import "XMPPLogging.h"
 
+#import <dns_sd.h>
 #include <dns_util.h>
 #include <stdlib.h>
 
@@ -40,6 +41,12 @@ NSString *const XMPPSRVResolverErrorDomain = @"XMPPSRVResolverErrorDomain";
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 #pragma mark -
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+@interface XMPPSRVResolver ()
+{
+    DNSServiceRef sdRef;
+}
+@end
 
 @implementation XMPPSRVResolver
 
