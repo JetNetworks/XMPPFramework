@@ -4,7 +4,4 @@
    <FileRef
       location = "group:XMPP/XMPP.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:../Vendor/CocoaLumberjack/Lumberjack.xcodeproj">
-   </FileRef>
 </Workspace>
