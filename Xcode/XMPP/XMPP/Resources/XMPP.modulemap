@@ -64,6 +64,8 @@ framework module XMPP {
     //exclude header "DDLog+LOGV.h"
     //exclude header "DDLegacyMacros.h"
 
+    link framework "CocoaLumberjack"
+
     module Config {
         header "XMPPConfig.h"
     }
