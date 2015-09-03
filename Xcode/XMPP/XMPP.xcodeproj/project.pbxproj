@@ -880,8 +880,6 @@
 		570BEAD11B8FB0A900A1E65D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5793F4C11B78E724006CCEA1 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = ../../Vendor/CocoaLumberjack/build/Debug/CocoaLumberjack.framework; sourceTree = "<group>"; };
 		5793F4C31B78E733006CCEA1 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = "../../Vendor/CocoaLumberjack/build/Debug-iphoneos/CocoaLumberjack.framework"; sourceTree = "<group>"; };
-		5793F4C51B78FD84006CCEA1 /* Sample_XMPPFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sample_XMPPFramework.h; path = ../../../Sample_XMPPFramework.h; sourceTree = "<group>"; };
-		5793F4C61B78FD84006CCEA1 /* XMPPFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMPPFramework.h; path = ../../../XMPPFramework.h; sourceTree = "<group>"; };
 		5793F4C71B79027D006CCEA1 /* XMPP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMPP.h; sourceTree = "<group>"; };
 		5793F4C81B7902FE006CCEA1 /* XMPP.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = XMPP.modulemap; sourceTree = "<group>"; };
 		5793F4CD1B790CF5006CCEA1 /* XMPP-framework-link-test (ios).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XMPP-framework-link-test (ios).app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1316,8 +1314,6 @@
 		5799A9DB1B711E5F000FCD95 /* XMPP */ = {
 			isa = PBXGroup;
 			children = (
-				5793F4C51B78FD84006CCEA1 /* Sample_XMPPFramework.h */,
-				5793F4C61B78FD84006CCEA1 /* XMPPFramework.h */,
 				5799ADCC1B713FCB000FCD95 /* Resources */,
 				5799AA201B713F8F000FCD95 /* Core */,
 				5799A9FE1B713F8E000FCD95 /* Authentication */,
