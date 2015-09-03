@@ -5,6 +5,13 @@
 #import "NSXMLElement+XMPP.h"
 
 #import "XMPP.h"
+#if XMPP_BUILD_DEBUG
+#ifdef _XMPP_CAPABILITIES_H
+#warning caps YES
+#else
+#warning caps NO
+#endif
+#endif
 
 #if DEBUG
   static const int xmppLogLevel = XMPP_LOG_LEVEL_VERBOSE;

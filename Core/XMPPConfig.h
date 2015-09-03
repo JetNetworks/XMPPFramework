@@ -24,6 +24,8 @@
 
 //  The following is standard:
 
+#define XMPP_BUILD_DEBUG 0
+
 #import "XMPPCore.h"
 
 // List the modules you're using here:

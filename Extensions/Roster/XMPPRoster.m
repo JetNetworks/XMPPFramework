@@ -6,6 +6,14 @@
 #import "XMPPLogging.h"
 
 #import "XMPP.h"
+#if XMPP_BUILD_DEBUG
+#ifdef _XMPP_VCARD_AVATAR_MODULE_H
+#warning vcard avatar: YES
+#else
+#warning vcard avatar: NO
+#endif
+#endif
+
 #import "DDList.h"
 #import "NSXMLElement+XMPP.h"
 #import "GCDMulticastDelegate.h"

@@ -5,6 +5,13 @@
 #import "NSXMLElement+XMPP.h"
 
 #import "XMPP.h"
+#if XMPP_BUILD_DEBUG
+#ifdef _XMPP_SYSTEM_INPUT_ACTIVITY_MONITOR_H
+#warning sys input act YES
+#else
+#warning sys input act NO
+#endif
+#endif
 
 #if ! __has_feature(objc_arc)
 #warning This file must be compiled with ARC. Use -fobjc-arc flag (or convert project to ARC).
