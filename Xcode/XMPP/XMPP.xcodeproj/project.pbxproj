@@ -899,7 +899,7 @@
 		570BEAD11B8FB0A900A1E65D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5793F4C11B78E724006CCEA1 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = ../../Vendor/CocoaLumberjack/build/Debug/CocoaLumberjack.framework; sourceTree = "<group>"; };
 		5793F4C31B78E733006CCEA1 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = "../../Vendor/CocoaLumberjack/build/Debug-iphoneos/CocoaLumberjack.framework"; sourceTree = "<group>"; };
-		5793F4C71B79027D006CCEA1 /* XMPP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMPP.h; sourceTree = "<group>"; };
+		5793F4C71B79027D006CCEA1 /* XMPP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XMPP.h; path = ../../../Core/XMPP.h; sourceTree = "<group>"; };
 		5793F4C81B7902FE006CCEA1 /* XMPP.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = XMPP.modulemap; sourceTree = "<group>"; };
 		5793F4CD1B790CF5006CCEA1 /* XMPP-framework-link-test (ios).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XMPP-framework-link-test (ios).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5793F4D01B790CF5006CCEA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -1334,6 +1334,7 @@
 			isa = PBXGroup;
 			children = (
 				57D3ABF81B95D50D00725336 /* XMPPConfig.h */,
+				5793F4C71B79027D006CCEA1 /* XMPP.h */,
 				5799ADCC1B713FCB000FCD95 /* Resources */,
 				5799AA201B713F8F000FCD95 /* Core */,
 				5799A9FE1B713F8E000FCD95 /* Authentication */,
@@ -1452,7 +1453,6 @@
 		5799AA201B713F8F000FCD95 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				5793F4C71B79027D006CCEA1 /* XMPP.h */,
 				5799AA211B713F8F000FCD95 /* XMPPCore.h */,
 				5799AA221B713F8F000FCD95 /* XMPPConstants.h */,
 				5799AA231B713F8F000FCD95 /* XMPPConstants.m */,
