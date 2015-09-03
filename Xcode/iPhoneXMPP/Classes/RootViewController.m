@@ -2,8 +2,8 @@
 #import "iPhoneXMPPAppDelegate.h"
 #import "SettingsViewController.h"
 
-#import "XMPPFramework.h"
-#import "DDLog.h"
+@import XMPP;
+@import CocoaLumberjack;
 
 // Log levels: off, error, warn, info, verbose
 #if DEBUG

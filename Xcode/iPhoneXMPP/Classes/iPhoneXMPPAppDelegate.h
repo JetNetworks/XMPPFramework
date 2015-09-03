@@ -1,7 +1,13 @@
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
 
-#import "XMPPFramework.h"
+@import XMPP;
+@import XMPP.Extensions.Roster.Storage.CoreData;
+@import XMPP.Extensions.vCardTemp;
+@import XMPP.Extensions.vCardTemp.Storage.CoreData;
+@import XMPP.Extensions.vCardBasedAvatars;
+@import XMPP.Extensions.EntityCapabilities;
+@import XMPP.Extensions.EntityCapabilities.Storage.CoreData;
 
 @class SettingsViewController;
 

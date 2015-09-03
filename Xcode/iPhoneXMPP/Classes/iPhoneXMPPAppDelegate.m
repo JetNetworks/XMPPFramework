@@ -2,17 +2,17 @@
 #import "RootViewController.h"
 #import "SettingsViewController.h"
 
-#import "GCDAsyncSocket.h"
-#import "XMPP.h"
-#import "XMPPLogging.h"
-#import "XMPPReconnect.h"
-#import "XMPPCapabilitiesCoreDataStorage.h"
-#import "XMPPRosterCoreDataStorage.h"
-#import "XMPPvCardAvatarModule.h"
-#import "XMPPvCardCoreDataStorage.h"
+@import KissXML;
 
-#import "DDLog.h"
-#import "DDTTYLogger.h"
+@import XMPP;
+@import XMPP.Extensions.EntityCapabilities.Storage.CoreData;
+@import XMPP.Extensions.Roster.Storage.CoreData;
+@import XMPP.Extensions.vCardTemp.Storage.CoreData;
+@import XMPP.Extensions.vCardBasedAvatars;
+
+@import CocoaLumberjack;
+@import CocoaLumberjack.tty;
+
 
 #import <CFNetwork/CFNetwork.h>
 

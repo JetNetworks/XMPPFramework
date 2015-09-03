@@ -10,7 +10,4 @@
    <FileRef
       location = "group:ServerlessDemo/ServerlessDemo.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:../Vendor/KissXML/KissXML.xcodeproj">
-   </FileRef>
 </Workspace>
