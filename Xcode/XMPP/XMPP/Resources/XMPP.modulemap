@@ -51,11 +51,11 @@ framework module XMPP {
     //export *
     //module * { export * }
 
-
-
-
+    // FIXME: This should only be for iOS
+    // FIXME: KissXML: `config_macros KISSXML_AS_NSXML`
     use KissXML
     link framework "KissXML"
+
     use CocoaLumberjack
     link framework "CocoaLumberjack"
 
