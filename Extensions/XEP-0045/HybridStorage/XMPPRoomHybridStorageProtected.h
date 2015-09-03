@@ -1,3 +1,5 @@
+#import "XMPPRoomHybridStorage.h"
+
 /**
  * The XMPPRoomHybridStorage class is designed to be easily extensible.
  * The class has several protected methods that act as hooks,

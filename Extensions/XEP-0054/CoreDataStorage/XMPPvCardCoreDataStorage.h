@@ -12,6 +12,10 @@
 #import "XMPPvCardTempModule.h"
 #import "XMPPvCardAvatarModule.h"
 
+#import "XMPPvCardCoreDataStorageObject.h"
+#import "XMPPvCardTempCoreDataStorageObject.h"
+#import "XMPPvCardAvatarCoreDataStorageObject.h"
+
 /**
  * This class is an example implementation of XMPPCapabilitiesStorage using core data.
  * You are free to substitute your own storage class.

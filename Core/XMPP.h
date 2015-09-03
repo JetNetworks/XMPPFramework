@@ -9,6 +9,14 @@
 // Core, Authentication
 #import "XMPPCore.h"
 
+#import "XMPPConstants.h"
+#import "XMPPParser.h"
+
+#if USE_XMPP_CORE_DATA
+    #import "XMPPCoreDataStorage.h"
+    #import "XMPPCoreDataStorageProtected.h"
+#endif
+
 // Extensions
 #if USE_XMPP_EXT_BANDWIDTH_MONITOR
     #import "XMPPBandwidthMonitor.h"
@@ -57,10 +65,14 @@
     #import "XMPPMUC.h"
     #import "XMPPRoom.h"
     #import "XMPPMessage+XEP0045.h"
+    #if USE_XMPP_CORE_DATA
+        #import "XMPPRoomHybridStorageProtected.h"
+    #endif
 #endif
 
 #if USE_XMPP_XEP_0054
     #import "XMPPvCardTempModule.h"
+    // For CoreData related header, see after import of 0153
 #endif
 
 #if USE_XMPP_XEP_0059
@@ -122,6 +134,12 @@
 #if USE_XMPP_XEP_0153
     #if USE_XMPP_XEP_0054
         #import "XMPPvCardAvatarModule.h"
+    #endif
+#endif
+
+#if USE_XMPP_CORE_DATA
+    #if USE_XMPP_XEP_0054 && USE_XMPP_XEP_0153
+        #import "XMPPvCardCoreDataStorage.h"
     #endif
 #endif
 

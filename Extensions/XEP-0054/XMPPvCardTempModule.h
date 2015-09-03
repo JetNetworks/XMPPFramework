@@ -10,6 +10,7 @@
 #import <Foundation/Foundation.h>
 
 #import "XMPPCore.h"
+#import "XMPPvCardTemp.h"
 
 @class XMPPvCardTemp;
 @class XMPPIDTracker;
