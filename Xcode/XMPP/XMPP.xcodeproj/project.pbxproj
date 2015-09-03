@@ -16,15 +16,12 @@
 		570BEACD1B8FA91000A1E65D /* XMPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5799A9D91B711E5F000FCD95 /* XMPP.framework */; };
 		570BEAD01B8FAB4000A1E65D /* XMPP.h in Headers */ = {isa = PBXBuildFile; fileRef = 5793F4C71B79027D006CCEA1 /* XMPP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		570BEAD21B8FB0A900A1E65D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570BEAD11B8FB0A900A1E65D /* Foundation.framework */; };
-		5793F4C21B78E724006CCEA1 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5793F4C11B78E724006CCEA1 /* CocoaLumberjack.framework */; };
-		5793F4C41B78E733006CCEA1 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5793F4C31B78E733006CCEA1 /* CocoaLumberjack.framework */; };
 		5793F4D11B790CF5006CCEA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5793F4D01B790CF5006CCEA1 /* main.m */; };
 		5793F4D41B790CF5006CCEA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5793F4D31B790CF5006CCEA1 /* AppDelegate.m */; };
 		5793F4D71B790CF5006CCEA1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5793F4D61B790CF5006CCEA1 /* ViewController.m */; };
 		5793F4DA1B790CF5006CCEA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5793F4D81B790CF5006CCEA1 /* Main.storyboard */; };
 		5793F4DC1B790CF5006CCEA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5793F4DB1B790CF5006CCEA1 /* Assets.xcassets */; };
 		5793F4DF1B790CF6006CCEA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5793F4DD1B790CF6006CCEA1 /* LaunchScreen.storyboard */; };
-		5793F4E61B790D34006CCEA1 /* XMPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5799A9E91B712609000FCD95 /* XMPP.framework */; };
 		5793F4E71B790DB8006CCEA1 /* XMPP.h in Headers */ = {isa = PBXBuildFile; fileRef = 5793F4C71B79027D006CCEA1 /* XMPP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5799AB461B713F8F000FCD95 /* XMPPAnonymousAuthentication.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA001B713F8E000FCD95 /* XMPPAnonymousAuthentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5799AB471B713F8F000FCD95 /* XMPPAnonymousAuthentication.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA001B713F8E000FCD95 /* XMPPAnonymousAuthentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -98,7 +95,7 @@
 		5799AB8B1B713F8F000FCD95 /* XMPPElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799AA251B713F8F000FCD95 /* XMPPElement.m */; };
 		5799AB8C1B713F8F000FCD95 /* XMPPElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799AA251B713F8F000FCD95 /* XMPPElement.m */; };
 		5799AB8D1B713F8F000FCD95 /* XMPPInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA261B713F8F000FCD95 /* XMPPInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5799AB8E1B713F8F000FCD95 /* XMPPInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA261B713F8F000FCD95 /* XMPPInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5799AB8E1B713F8F000FCD95 /* XMPPInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA261B713F8F000FCD95 /* XMPPInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		5799AB8F1B713F8F000FCD95 /* XMPPIQ.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA271B713F8F000FCD95 /* XMPPIQ.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5799AB901B713F8F000FCD95 /* XMPPIQ.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA271B713F8F000FCD95 /* XMPPIQ.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5799AB911B713F8F000FCD95 /* XMPPIQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799AA281B713F8F000FCD95 /* XMPPIQ.m */; };
@@ -212,7 +209,7 @@
 		5799ABFD1B713F8F000FCD95 /* XMPPRosterMemoryStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799AA5D1B713F8F000FCD95 /* XMPPRosterMemoryStorage.m */; };
 		5799ABFE1B713F8F000FCD95 /* XMPPRosterMemoryStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799AA5D1B713F8F000FCD95 /* XMPPRosterMemoryStorage.m */; };
 		5799ABFF1B713F8F000FCD95 /* XMPPRosterMemoryStoragePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA5E1B713F8F000FCD95 /* XMPPRosterMemoryStoragePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5799AC001B713F8F000FCD95 /* XMPPRosterMemoryStoragePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA5E1B713F8F000FCD95 /* XMPPRosterMemoryStoragePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5799AC001B713F8F000FCD95 /* XMPPRosterMemoryStoragePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA5E1B713F8F000FCD95 /* XMPPRosterMemoryStoragePrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		5799AC011B713F8F000FCD95 /* XMPPUserMemoryStorageObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA5F1B713F8F000FCD95 /* XMPPUserMemoryStorageObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5799AC021B713F8F000FCD95 /* XMPPUserMemoryStorageObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA5F1B713F8F000FCD95 /* XMPPUserMemoryStorageObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5799AC031B713F8F000FCD95 /* XMPPUserMemoryStorageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799AA601B713F8F000FCD95 /* XMPPUserMemoryStorageObject.m */; };
@@ -335,7 +332,7 @@
 		5799AC7A1B713F8F000FCD95 /* XMPPRoomOccupant.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA9A1B713F8F000FCD95 /* XMPPRoomOccupant.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5799AC7B1B713F8F000FCD95 /* XMPPRoomOccupant.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA9A1B713F8F000FCD95 /* XMPPRoomOccupant.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5799AC7C1B713F8F000FCD95 /* XMPPRoomPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA9B1B713F8F000FCD95 /* XMPPRoomPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5799AC7D1B713F8F000FCD95 /* XMPPRoomPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA9B1B713F8F000FCD95 /* XMPPRoomPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5799AC7D1B713F8F000FCD95 /* XMPPRoomPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA9B1B713F8F000FCD95 /* XMPPRoomPrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		5799AC7E1B713F8F000FCD95 /* XMPPvCard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5799AA9E1B713F8F000FCD95 /* XMPPvCard.xcdatamodeld */; };
 		5799AC7F1B713F8F000FCD95 /* XMPPvCard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5799AA9E1B713F8F000FCD95 /* XMPPvCard.xcdatamodeld */; };
 		5799AC801B713F8F000FCD95 /* XMPPvCard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5799AA9E1B713F8F000FCD95 /* XMPPvCard.xcdatamodeld */; };
@@ -478,12 +475,12 @@
 		5799AD091B713F8F000FCD95 /* XMPPCapabilitiesCoreDataStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799AAE21B713F8F000FCD95 /* XMPPCapabilitiesCoreDataStorage.m */; };
 		5799AD0A1B713F8F000FCD95 /* XMPPCapabilitiesCoreDataStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799AAE21B713F8F000FCD95 /* XMPPCapabilitiesCoreDataStorage.m */; };
 		5799AD0B1B713F8F000FCD95 /* XMPPCapsCoreDataStorageObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AAE31B713F8F000FCD95 /* XMPPCapsCoreDataStorageObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5799AD0C1B713F8F000FCD95 /* XMPPCapsCoreDataStorageObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AAE31B713F8F000FCD95 /* XMPPCapsCoreDataStorageObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5799AD0C1B713F8F000FCD95 /* XMPPCapsCoreDataStorageObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AAE31B713F8F000FCD95 /* XMPPCapsCoreDataStorageObject.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		5799AD0D1B713F8F000FCD95 /* XMPPCapsCoreDataStorageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799AAE41B713F8F000FCD95 /* XMPPCapsCoreDataStorageObject.m */; };
 		5799AD0E1B713F8F000FCD95 /* XMPPCapsCoreDataStorageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799AAE41B713F8F000FCD95 /* XMPPCapsCoreDataStorageObject.m */; };
 		5799AD0F1B713F8F000FCD95 /* XMPPCapsCoreDataStorageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799AAE41B713F8F000FCD95 /* XMPPCapsCoreDataStorageObject.m */; };
 		5799AD101B713F8F000FCD95 /* XMPPCapsResourceCoreDataStorageObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AAE51B713F8F000FCD95 /* XMPPCapsResourceCoreDataStorageObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5799AD111B713F8F000FCD95 /* XMPPCapsResourceCoreDataStorageObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AAE51B713F8F000FCD95 /* XMPPCapsResourceCoreDataStorageObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5799AD111B713F8F000FCD95 /* XMPPCapsResourceCoreDataStorageObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AAE51B713F8F000FCD95 /* XMPPCapsResourceCoreDataStorageObject.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		5799AD121B713F8F000FCD95 /* XMPPCapsResourceCoreDataStorageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799AAE61B713F8F000FCD95 /* XMPPCapsResourceCoreDataStorageObject.m */; };
 		5799AD131B713F8F000FCD95 /* XMPPCapsResourceCoreDataStorageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799AAE61B713F8F000FCD95 /* XMPPCapsResourceCoreDataStorageObject.m */; };
 		5799AD141B713F8F000FCD95 /* XMPPCapsResourceCoreDataStorageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799AAE61B713F8F000FCD95 /* XMPPCapsResourceCoreDataStorageObject.m */; };
@@ -684,6 +681,10 @@
 		5799AE261B7140C9000FCD95 /* stringprep.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799ADEC1B7140C9000FCD95 /* stringprep.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		57D3ABF91B95D5E700725336 /* XMPPConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 57D3ABF81B95D50D00725336 /* XMPPConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		57D3ABFA1B96310500725336 /* XMPPConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 57D3ABF81B95D50D00725336 /* XMPPConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57D3AD0D1B97679B00725336 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D3AD0A1B97674800725336 /* CocoaLumberjack.framework */; };
+		57D3AD101B9768D800725336 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D3AD041B97674800725336 /* CocoaLumberjack.framework */; };
+		57D3AD131B97695300725336 /* XMPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5799A9E91B712609000FCD95 /* XMPP.framework */; };
+		57D3AD141B97695300725336 /* XMPP.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5799A9E91B712609000FCD95 /* XMPP.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		57D5FBD91B71481400EB4E00 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D5FBD81B71481400EB4E00 /* CFNetwork.framework */; };
 		57D5FBDB1B71481A00EB4E00 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D5FBDA1B71481A00EB4E00 /* Security.framework */; };
 		57D5FBDF1B71484400EB4E00 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D5FBDE1B71484400EB4E00 /* libresolv.tbd */; };
@@ -763,6 +764,83 @@
 			remoteGlobalIDString = 5799A9E81B712609000FCD95;
 			remoteInfo = "XMPP (ios)";
 		};
+		57D3ACFB1B97674800725336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57D3ACEB1B97674800725336 /* Lumberjack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DCB318CA14ED6C3B001CFBEE;
+			remoteInfo = FmwkTest;
+		};
+		57D3ACFD1B97674800725336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57D3ACEB1B97674800725336 /* Lumberjack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 55CCBEFF19BA679200957A39;
+			remoteInfo = SwiftTest;
+		};
+		57D3ACFF1B97674800725336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57D3ACEB1B97674800725336 /* Lumberjack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 18F3BF5F1A81DD2E00692297;
+			remoteInfo = iOSSwiftTest;
+		};
+		57D3AD011B97674800725336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57D3ACEB1B97674800725336 /* Lumberjack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 18F3BFF21A81E0C700692297;
+			remoteInfo = iOSLibStaticTest;
+		};
+		57D3AD031B97674800725336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57D3ACEB1B97674800725336 /* Lumberjack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DCB3185114EB418E001CFBEE;
+			remoteInfo = "CocoaLumberjack (osx)";
+		};
+		57D3AD051B97674800725336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57D3ACEB1B97674800725336 /* Lumberjack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 18F3BF0F1A81D8B700692297;
+			remoteInfo = "CocoaLumberjack (osx swift)";
+		};
+		57D3AD071B97674800725336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57D3ACEB1B97674800725336 /* Lumberjack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 18F3BFA71A81DF5600692297;
+			remoteInfo = "CocoaLumberjack (ios)";
+		};
+		57D3AD091B97674800725336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57D3ACEB1B97674800725336 /* Lumberjack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 18F3BFC21A81DFA200692297;
+			remoteInfo = "CocoaLumberjack (ios swift)";
+		};
+		57D3AD0B1B97674800725336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57D3ACEB1B97674800725336 /* Lumberjack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 18F3BFD71A81E06E00692297;
+			remoteInfo = "CocoaLumberjack (ios static)";
+		};
+		57D3AD0E1B9767A500725336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57D3ACEB1B97674800725336 /* Lumberjack.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F3BFA91A81DFA200692297;
+			remoteInfo = "CocoaLumberjack (ios swift)";
+		};
+		57D3AD111B9768EB00725336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57D3ACEB1B97674800725336 /* Lumberjack.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F3BEF61A81D8B700692297;
+			remoteInfo = "CocoaLumberjack (osx swift)";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -773,6 +851,17 @@
 			dstSubfolderSpec = 16;
 			files = (
 			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D3AD151B97695400725336 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				57D3AD141B97695300725336 /* XMPP.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -1076,6 +1165,7 @@
 		5799ADEB1B7140C9000FCD95 /* libidn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libidn.a; sourceTree = "<group>"; };
 		5799ADEC1B7140C9000FCD95 /* stringprep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringprep.h; sourceTree = "<group>"; };
 		57D3ABF81B95D50D00725336 /* XMPPConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMPPConfig.h; sourceTree = "<group>"; };
+		57D3ACEB1B97674800725336 /* Lumberjack.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Lumberjack.xcodeproj; path = ../../Vendor/CocoaLumberjack/Lumberjack.xcodeproj; sourceTree = "<group>"; };
 		57D5FBD81B71481400EB4E00 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		57D5FBDA1B71481A00EB4E00 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		57D5FBDE1B71484400EB4E00 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
@@ -1097,7 +1187,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5793F4E61B790D34006CCEA1 /* XMPP.framework in Frameworks */,
+				57D3AD131B97695300725336 /* XMPP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1105,7 +1195,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5793F4C21B78E724006CCEA1 /* CocoaLumberjack.framework in Frameworks */,
+				57D3AD101B9768D800725336 /* CocoaLumberjack.framework in Frameworks */,
 				57D5FBDF1B71484400EB4E00 /* libresolv.tbd in Frameworks */,
 				57D5FBDB1B71481A00EB4E00 /* Security.framework in Frameworks */,
 				57D5FBD91B71481400EB4E00 /* CFNetwork.framework in Frameworks */,
@@ -1118,8 +1208,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57D3AD0D1B97679B00725336 /* CocoaLumberjack.framework in Frameworks */,
 				570BEAAA1B8DFCBC00A1E65D /* KissXML.framework in Frameworks */,
-				5793F4C41B78E733006CCEA1 /* CocoaLumberjack.framework in Frameworks */,
 				57D5FBE71B714FCA00EB4E00 /* libresolv.tbd in Frameworks */,
 				57D5FBE31B714FBA00EB4E00 /* Security.framework in Frameworks */,
 				57D5FBE11B714FB500EB4E00 /* CFNetwork.framework in Frameworks */,
@@ -1202,6 +1292,7 @@
 			isa = PBXGroup;
 			children = (
 				570BEA911B8DFC7A00A1E65D /* KissXML.xcodeproj */,
+				57D3ACEB1B97674800725336 /* Lumberjack.xcodeproj */,
 				5799A9DB1B711E5F000FCD95 /* XMPP */,
 				5793F4CE1B790CF5006CCEA1 /* XMPP-framework-link-test */,
 				570BEABA1B8FA8D600A1E65D /* XMPP-framework-link-test-osx */,
@@ -2052,6 +2143,22 @@
 			path = ../../../Vendor/libidn;
 			sourceTree = "<group>";
 		};
+		57D3ACEC1B97674800725336 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57D3ACFC1B97674800725336 /* FmwkTest.app */,
+				57D3ACFE1B97674800725336 /* SwiftTest.app */,
+				57D3AD001B97674800725336 /* iOSSwiftTest.app */,
+				57D3AD021B97674800725336 /* iOSLibStaticTest.app */,
+				57D3AD041B97674800725336 /* CocoaLumberjack.framework */,
+				57D3AD061B97674800725336 /* CocoaLumberjack.framework */,
+				57D3AD081B97674800725336 /* CocoaLumberjack.framework */,
+				57D3AD0A1B97674800725336 /* CocoaLumberjack.framework */,
+				57D3AD0C1B97674800725336 /* libCocoaLumberjack.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		57D5FBD41B71425300EB4E00 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -2241,16 +2348,15 @@
 				5793F4E71B790DB8006CCEA1 /* XMPP.h in Headers */,
 				5799AB821B713F8F000FCD95 /* XMPPCore.h in Headers */,
 				5799AB841B713F8F000FCD95 /* XMPPConstants.h in Headers */,
-				5799AB951B713F8F000FCD95 /* XMPPJID.h in Headers */,
-				5799ABB01B713F8F000FCD95 /* XMPPStream.h in Headers */,
 				5799AB891B713F8F000FCD95 /* XMPPElement.h in Headers */,
-				5799AB9C1B713F8F000FCD95 /* XMPPMessage.h in Headers */,
-				5799ABAB1B713F8F000FCD95 /* XMPPPresence.h in Headers */,
 				5799AB901B713F8F000FCD95 /* XMPPIQ.h in Headers */,
-				5799ABA61B713F8F000FCD95 /* XMPPParser.h in Headers */,
-				5799ABA11B713F8F000FCD95 /* XMPPModule.h in Headers */,
+				5799AB951B713F8F000FCD95 /* XMPPJID.h in Headers */,
 				5799AB9A1B713F8F000FCD95 /* XMPPLogging.h in Headers */,
-				5799AB8E1B713F8F000FCD95 /* XMPPInternal.h in Headers */,
+				5799AB9C1B713F8F000FCD95 /* XMPPMessage.h in Headers */,
+				5799ABA61B713F8F000FCD95 /* XMPPParser.h in Headers */,
+				5799ABAB1B713F8F000FCD95 /* XMPPPresence.h in Headers */,
+				5799ABB01B713F8F000FCD95 /* XMPPStream.h in Headers */,
+				5799ABA11B713F8F000FCD95 /* XMPPModule.h in Headers */,
 				5799AB6F1B713F8F000FCD95 /* XMPPCustomBinding.h in Headers */,
 				5799AB711B713F8F000FCD95 /* XMPPSASLAuthentication.h in Headers */,
 				5799AB471B713F8F000FCD95 /* XMPPAnonymousAuthentication.h in Headers */,
@@ -2276,14 +2382,13 @@
 				5799ABD01B713F8F000FCD95 /* XMPPGoogleSharedStatus.h in Headers */,
 				5799ABD51B713F8F000FCD95 /* XMPPProcessOne.h in Headers */,
 				5799ABDA1B713F8F000FCD95 /* XMPPReconnect.h in Headers */,
-				5799AC091B713F8F000FCD95 /* XMPPRoster.h in Headers */,
 				5799AC071B713F8F000FCD95 /* XMPPResource.h in Headers */,
+				5799AC091B713F8F000FCD95 /* XMPPRoster.h in Headers */,
 				5799AC101B713F8F000FCD95 /* XMPPUser.h in Headers */,
-				5799ABEC1B713F8F000FCD95 /* XMPPRosterCoreDataStorage.h in Headers */,
 				5799ABDF1B713F8F000FCD95 /* XMPPGroupCoreDataStorageObject.h in Headers */,
 				5799ABE41B713F8F000FCD95 /* XMPPResourceCoreDataStorageObject.h in Headers */,
+				5799ABEC1B713F8F000FCD95 /* XMPPRosterCoreDataStorage.h in Headers */,
 				5799ABF11B713F8F000FCD95 /* XMPPUserCoreDataStorageObject.h in Headers */,
-				5799AC001B713F8F000FCD95 /* XMPPRosterMemoryStoragePrivate.h in Headers */,
 				5799ABF61B713F8F000FCD95 /* XMPPResourceMemoryStorageObject.h in Headers */,
 				5799ABFB1B713F8F000FCD95 /* XMPPRosterMemoryStorage.h in Headers */,
 				5799AC021B713F8F000FCD95 /* XMPPUserMemoryStorageObject.h in Headers */,
@@ -2293,20 +2398,20 @@
 				5799AC211B713F8F000FCD95 /* XMPPJabberRPCModule.h in Headers */,
 				5799AC261B713F8F000FCD95 /* XMPPIQ+LastActivity.h in Headers */,
 				5799AC2B1B713F8F000FCD95 /* XMPPLastActivity.h in Headers */,
-				5799AC6A1B713F8F000FCD95 /* XMPPMessage+XEP0045.h in Headers */,
 				5799AC301B713F8F000FCD95 /* XMPPPrivacy.h in Headers */,
-				5799AC741B713F8F000FCD95 /* XMPPRoom.h in Headers */,
-				5799AC7B1B713F8F000FCD95 /* XMPPRoomOccupant.h in Headers */,
-				5799AC791B713F8F000FCD95 /* XMPPRoomMessage.h in Headers */,
-				5799AC7D1B713F8F000FCD95 /* XMPPRoomPrivate.h in Headers */,
+				5799AC6A1B713F8F000FCD95 /* XMPPMessage+XEP0045.h in Headers */,
 				5799AC6F1B713F8F000FCD95 /* XMPPMUC.h in Headers */,
+				5799AC741B713F8F000FCD95 /* XMPPRoom.h in Headers */,
+				5799AC791B713F8F000FCD95 /* XMPPRoomMessage.h in Headers */,
+				5799AC7B1B713F8F000FCD95 /* XMPPRoomOccupant.h in Headers */,
 				5799AC381B713F8F000FCD95 /* XMPPRoomCoreDataStorage.h in Headers */,
 				5799AC3D1B713F8F000FCD95 /* XMPPRoomMessageCoreDataStorageObject.h in Headers */,
 				5799AC421B713F8F000FCD95 /* XMPPRoomOccupantCoreDataStorageObject.h in Headers */,
 				5799AC4A1B713F8F000FCD95 /* XMPPRoomHybridStorage.h in Headers */,
 				5799AC4F1B713F8F000FCD95 /* XMPPRoomHybridStorageProtected.h in Headers */,
-				5799AC561B713F8F000FCD95 /* XMPPRoomOccupantHybridMemoryStorageObject.h in Headers */,
 				5799AC511B713F8F000FCD95 /* XMPPRoomMessageHybridCoreDataStorageObject.h in Headers */,
+				5799AC561B713F8F000FCD95 /* XMPPRoomOccupantHybridMemoryStorageObject.h in Headers */,
+				5799AC5B1B713F8F000FCD95 /* XMPPRoomMemoryStorage.h in Headers */,
 				5799AC601B713F8F000FCD95 /* XMPPRoomMessageMemoryStorageObject.h in Headers */,
 				5799AC651B713F8F000FCD95 /* XMPPRoomOccupantMemoryStorageObject.h in Headers */,
 				5799AC9B1B713F8F000FCD95 /* XMPPvCardTempAdr.h in Headers */,
@@ -2316,7 +2421,6 @@
 				5799AC8C1B713F8F000FCD95 /* XMPPvCardCoreDataStorageObject.h in Headers */,
 				5799AC871B713F8F000FCD95 /* XMPPvCardCoreDataStorage.h in Headers */,
 				5799AC911B713F8F000FCD95 /* XMPPvCardTempCoreDataStorageObject.h in Headers */,
-				5799AC5B1B713F8F000FCD95 /* XMPPRoomMemoryStorage.h in Headers */,
 				5799AC961B713F8F000FCD95 /* XMPPvCardTemp.h in Headers */,
 				5799ACA01B713F8F000FCD95 /* XMPPvCardTempAdrTypes.h in Headers */,
 				5799ACAA1B713F8F000FCD95 /* XMPPvCardTempEmail.h in Headers */,
@@ -2338,8 +2442,6 @@
 				5799ACFF1B713F8F000FCD95 /* NSString+XEP_0106.h in Headers */,
 				5799AD161B713F8F000FCD95 /* XMPPCapabilities.h in Headers */,
 				5799AD071B713F8F000FCD95 /* XMPPCapabilitiesCoreDataStorage.h in Headers */,
-				5799AD0C1B713F8F000FCD95 /* XMPPCapsCoreDataStorageObject.h in Headers */,
-				5799AD111B713F8F000FCD95 /* XMPPCapsResourceCoreDataStorageObject.h in Headers */,
 				5799AD2D1B713F8F000FCD95 /* XMPPMessageArchiving.h in Headers */,
 				5799AD281B713F8F000FCD95 /* XMPPMessageArchivingCoreDataStorage.h in Headers */,
 				5799AD1E1B713F8F000FCD95 /* XMPPMessageArchiving_Contact_CoreDataObject.h in Headers */,
@@ -2370,11 +2472,16 @@
 				5799ADEE1B7140C9000FCD95 /* GCDAsyncSocket.h in Headers */,
 				5799AE211B7140C9000FCD95 /* idn-int.h in Headers */,
 				5799AE261B7140C9000FCD95 /* stringprep.h in Headers */,
+				5799AB8E1B713F8F000FCD95 /* XMPPInternal.h in Headers */,
 				5799AB731B713F8F000FCD95 /* NSData+XMPP.h in Headers */,
 				5799AB781B713F8F000FCD95 /* NSNumber+XMPP.h in Headers */,
 				5799ADAA1B713F8F000FCD95 /* DDList.h in Headers */,
 				5799ADB41B713F8F000FCD95 /* RFImageToDataTransformer.h in Headers */,
 				5799AC0E1B713F8F000FCD95 /* XMPPRosterPrivate.h in Headers */,
+				5799AC001B713F8F000FCD95 /* XMPPRosterMemoryStoragePrivate.h in Headers */,
+				5799AD0C1B713F8F000FCD95 /* XMPPCapsCoreDataStorageObject.h in Headers */,
+				5799AD111B713F8F000FCD95 /* XMPPCapsResourceCoreDataStorageObject.h in Headers */,
+				5799AC7D1B713F8F000FCD95 /* XMPPRoomPrivate.h in Headers */,
 				5799AD5A1B713F8F000FCD95 /* XMPPStreamManagementStanzas.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2407,6 +2514,7 @@
 				5793F4C91B790CF5006CCEA1 /* Sources */,
 				5793F4CA1B790CF5006CCEA1 /* Frameworks */,
 				5793F4CB1B790CF5006CCEA1 /* Resources */,
+				57D3AD151B97695400725336 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -2430,6 +2538,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				57D3AD121B9768EB00725336 /* PBXTargetDependency */,
 			);
 			name = "XMPP (osx)";
 			productName = XMPP;
@@ -2448,6 +2557,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				57D3AD0F1B9767A500725336 /* PBXTargetDependency */,
 				570BEAAC1B8DFCC200A1E65D /* PBXTargetDependency */,
 			);
 			name = "XMPP (ios)";
@@ -2514,6 +2624,10 @@
 					ProductGroup = 570BEA921B8DFC7A00A1E65D /* Products */;
 					ProjectRef = 570BEA911B8DFC7A00A1E65D /* KissXML.xcodeproj */;
 				},
+				{
+					ProductGroup = 57D3ACEC1B97674800725336 /* Products */;
+					ProjectRef = 57D3ACEB1B97674800725336 /* Lumberjack.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -2567,6 +2681,69 @@
 			fileType = archive.ar;
 			path = libKissXML.a;
 			remoteRef = 570BEAA51B8DFC7A00A1E65D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		57D3ACFC1B97674800725336 /* FmwkTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = FmwkTest.app;
+			remoteRef = 57D3ACFB1B97674800725336 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		57D3ACFE1B97674800725336 /* SwiftTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwiftTest.app;
+			remoteRef = 57D3ACFD1B97674800725336 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		57D3AD001B97674800725336 /* iOSSwiftTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = iOSSwiftTest.app;
+			remoteRef = 57D3ACFF1B97674800725336 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		57D3AD021B97674800725336 /* iOSLibStaticTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = iOSLibStaticTest.app;
+			remoteRef = 57D3AD011B97674800725336 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		57D3AD041B97674800725336 /* CocoaLumberjack.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CocoaLumberjack.framework;
+			remoteRef = 57D3AD031B97674800725336 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		57D3AD061B97674800725336 /* CocoaLumberjack.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CocoaLumberjack.framework;
+			remoteRef = 57D3AD051B97674800725336 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		57D3AD081B97674800725336 /* CocoaLumberjack.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CocoaLumberjack.framework;
+			remoteRef = 57D3AD071B97674800725336 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		57D3AD0A1B97674800725336 /* CocoaLumberjack.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CocoaLumberjack.framework;
+			remoteRef = 57D3AD091B97674800725336 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		57D3AD0C1B97674800725336 /* libCocoaLumberjack.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCocoaLumberjack.a;
+			remoteRef = 57D3AD0B1B97674800725336 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -3051,6 +3228,16 @@
 			target = 5799A9E81B712609000FCD95 /* XMPP (ios) */;
 			targetProxy = 5793F4E41B790D2B006CCEA1 /* PBXContainerItemProxy */;
 		};
+		57D3AD0F1B9767A500725336 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CocoaLumberjack (ios swift)";
+			targetProxy = 57D3AD0E1B9767A500725336 /* PBXContainerItemProxy */;
+		};
+		57D3AD121B9768EB00725336 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CocoaLumberjack (osx swift)";
+			targetProxy = 57D3AD111B9768EB00725336 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -3087,6 +3274,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "XMPP-framework-link-test-osx/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
@@ -3102,6 +3290,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "XMPP-framework-link-test-osx/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
@@ -3116,6 +3305,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "XMPP-framework-link-test/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -3135,6 +3326,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "XMPP-framework-link-test/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -3197,19 +3390,32 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = (
-					"-DMEOW=1",
+					"$(inherited)",
+					"$(WS_USE_XMPP_DEFINES)",
+				);
+				"OTHER_CFLAGS[sdk=iphoneos*]" = (
+					"$(inherited)",
+					"$(WS_USE_XMPP_DEFINES)",
+				);
+				"OTHER_CFLAGS[sdk=iphonesimulator*]" = (
+					"$(inherited)",
 					"$(WS_USE_XMPP_DEFINES)",
 				);
 				"OTHER_CFLAGS[sdk=macosx*]" = (
-					"-DMEOW=1",
+					"$(inherited)",
 					"$(WS_USE_XMPP_DEFINES)",
 				);
 				SDKROOT = macosx;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 				WS_USE_XMPP_DEFINES = "$(WS_USE_XMPP_DEFINES_SHARED)";
-				"WS_USE_XMPP_DEFINES[sdk=macosx*]" = "$(WS_USE_XMPP_DEFINES_SHARED) -DUSE_XMPP_SYSTEMINPUTACTIVITYMONITOR=1";
+				"WS_USE_XMPP_DEFINES[sdk=iphoneos*]" = "$(inherited) -DUSE_XMPP_SYSTEMINPUTACTIVITYMONITOR=0";
+				"WS_USE_XMPP_DEFINES[sdk=iphonesimulator*]" = "$(inherited) -DUSE_XMPP_SYSTEMINPUTACTIVITYMONITOR=0";
+				"WS_USE_XMPP_DEFINES[sdk=macosx*]" = "$(inherited) -DUSE_XMPP_SYSTEMINPUTACTIVITYMONITOR=1";
 				WS_USE_XMPP_DEFINES_SHARED = "-DUSE_XMPP_PROCESS_ONE=1";
+				"WS_USE_XMPP_DEFINES_SHARED[sdk=iphoneos*]" = "-DKISSXML_AS_NSXML=1 $(inherited)";
+				"WS_USE_XMPP_DEFINES_SHARED[sdk=iphonesimulator*]" = "-DKISSXML_AS_NSXML=1 $(inherited)";
+				"WS_USE_XMPP_DEFINES_SHARED[sdk=macosx*]" = "-DKISSXML_AS_NSXML=0 $(inherited)";
 			};
 			name = Debug;
 		};
@@ -3253,19 +3459,28 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_CFLAGS = (
-					"-DMEOW=1",
+					"$(inherited)",
+					"$(WS_USE_XMPP_DEFINES)",
+				);
+				"OTHER_CFLAGS[sdk=iphoneos*]" = (
+					"$(inherited)",
 					"$(WS_USE_XMPP_DEFINES)",
 				);
 				"OTHER_CFLAGS[sdk=macosx*]" = (
-					"-DMEOW=1",
+					"$(inherited)",
 					"$(WS_USE_XMPP_DEFINES)",
 				);
 				SDKROOT = macosx;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 				WS_USE_XMPP_DEFINES = "$(WS_USE_XMPP_DEFINES_SHARED)";
-				"WS_USE_XMPP_DEFINES[sdk=macosx*]" = "$(WS_USE_XMPP_DEFINES_SHARED) -DUSE_XMPP_SYSTEMINPUTACTIVITYMONITOR=1";
+				"WS_USE_XMPP_DEFINES[sdk=iphoneos*]" = "$(inherited) -DUSE_XMPP_SYSTEMINPUTACTIVITYMONITOR=0";
+				"WS_USE_XMPP_DEFINES[sdk=iphonesimulator*]" = "$(inherited) -DUSE_XMPP_SYSTEMINPUTACTIVITYMONITOR=0";
+				"WS_USE_XMPP_DEFINES[sdk=macosx*]" = "$(inherited) -DUSE_XMPP_SYSTEMINPUTACTIVITYMONITOR=1";
 				WS_USE_XMPP_DEFINES_SHARED = "-DUSE_XMPP_PROCESS_ONE=1";
+				"WS_USE_XMPP_DEFINES_SHARED[sdk=iphoneos*]" = "-DKISSXML_AS_NSXML=1 $(inherited)";
+				"WS_USE_XMPP_DEFINES_SHARED[sdk=iphonesimulator*]" = "-DKISSXML_AS_NSXML=1 $(inherited)";
+				"WS_USE_XMPP_DEFINES_SHARED[sdk=macosx*]" = "-DKISSXML_AS_NSXML=0 $(inherited)";
 			};
 			name = Release;
 		};
@@ -3277,6 +3492,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "$(SRCROOT)/XMPP/Resources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -3301,6 +3517,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "$(SRCROOT)/XMPP/Resources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -3326,15 +3543,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/XMPP/Resources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "$(PROJECT_DIR)/XMPP/Resources/XMPP.modulemap";
-				OTHER_CFLAGS = (
-					"-DDEBUG=1",
-					"-DKISSXML_AS_NSXML=1",
-				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.XMPP;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = iphoneos;
@@ -3352,15 +3567,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/XMPP/Resources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "$(PROJECT_DIR)/XMPP/Resources/XMPP.modulemap";
-				OTHER_CFLAGS = (
-					"-DDEBUG=0",
-					"-DKISSXML_AS_NSXML=1",
-				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.XMPP;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = iphoneos;

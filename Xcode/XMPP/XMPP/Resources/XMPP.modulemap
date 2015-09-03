@@ -51,8 +51,15 @@ framework module XMPP {
     //export *
     //module * { export * }
 
+
+
+
+    use KissXML
+    link framework "KissXML"
+    use CocoaLumberjack
+    link framework "CocoaLumberjack"
+
     // ?
-    exclude header "GCDAsyncSocket.h"
     // Utilities (now all internal)
     exclude header "DDList.h"
     exclude header "GCDMulticastDelegate.h"
@@ -64,16 +71,27 @@ framework module XMPP {
     //exclude header "DDLog+LOGV.h"
     //exclude header "DDLegacyMacros.h"
 
-    link framework "CocoaLumberjack"
-
     module Config {
         header "XMPPConfig.h"
     }
     
     module Core {
         header "XMPPCore.h"
-        
-        module Authentication {            
+
+        export *
+
+        module Misc {
+            header "GCDAsyncSocket.h"
+            
+            header "XMPPConstants.h"
+            header "XMPPParser.h"
+        }
+
+        module Logging {
+            header "XMPPLogging.h"
+        }
+
+        module Authentication {
             header "XMPPSASLAuthentication.h"
             header "XMPPSASLAuthentication.h"
             header "XMPPCustomBinding.h"
@@ -98,13 +116,22 @@ framework module XMPP {
             }
         }
     }
-    
+
     module Extensions {
 
         // Framework extension: BandwidthMonitor
         // * type: XMPP Module (s)
         explicit module BandwidthMonitor {
             header "XMPPBandwidthMonitor.h"
+        }
+        
+        module Storage {
+            module CoreData {
+                header "XMPPCoreDataStorage.h"
+                explicit module Subclassing {
+                    header "XMPPCoreDataStorageProtected.h"
+                }
+            }
         }
 
         // Framework extension: FileTransfer
@@ -129,20 +156,26 @@ framework module XMPP {
         
         // Framework extension: Reconnect
         // * type: XMPP Module
-        explicit module Reconnect {
+        module Reconnect {
             header "XMPPReconnect.h"
         }
     
         // Framework extension: Roster
         // * type: XMPP Module
-        explicit module Roster {
+        module Roster {
             header "XMPPRoster.h"
+            
+            header "XMPPUser.h"
+            header "XMPPResource.h"
+            
             module Storage {
                 module Memory {
                     header "XMPPRosterMemoryStorage.h"
+                    //export *
                 }
                 explicit module CoreData {
                     header "XMPPRosterCoreDataStorage.h"
+                    //export *
                 }
             }
         }
@@ -187,6 +220,9 @@ framework module XMPP {
                 }
                 explicit module Hybrid {
                     header "XMPPRoomHybridStorage.h"
+                    explicit module Subclassing {
+                        header "XMPPRoomHybridStorageProtected.h"
+                    }
                 }
                 explicit module CoreData {
                     header "XMPPRoomCoreDataStorage.h"
