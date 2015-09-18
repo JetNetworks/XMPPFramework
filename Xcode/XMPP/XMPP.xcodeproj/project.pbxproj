@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		570BEAAA1B8DFCBC00A1E65D /* KissXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570BEAA41B8DFC7A00A1E65D /* KissXML.framework */; };
 		570BEABD1B8FA8D600A1E65D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 570BEABC1B8FA8D600A1E65D /* AppDelegate.m */; };
 		570BEAC01B8FA8D600A1E65D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 570BEABF1B8FA8D600A1E65D /* main.m */; };
 		570BEAC31B8FA8D600A1E65D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 570BEAC21B8FA8D600A1E65D /* ViewController.m */; };
@@ -15,6 +14,21 @@
 		570BEAC81B8FA8D600A1E65D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 570BEAC61B8FA8D600A1E65D /* Main.storyboard */; };
 		570BEAD01B8FAB4000A1E65D /* XMPP.h in Headers */ = {isa = PBXBuildFile; fileRef = 5793F4C71B79027D006CCEA1 /* XMPP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		570BEAD21B8FB0A900A1E65D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570BEAD11B8FB0A900A1E65D /* Foundation.framework */; };
+		572B76291BAC394F00890895 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76261BAC394F00890895 /* CocoaLumberjack.framework */; settings = {ASSET_TAGS = (); }; };
+		572B762A1BAC394F00890895 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76261BAC394F00890895 /* CocoaLumberjack.framework */; settings = {ASSET_TAGS = (); }; };
+		572B762B1BAC394F00890895 /* KissXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76271BAC394F00890895 /* KissXML.framework */; settings = {ASSET_TAGS = (); }; };
+		572B762C1BAC394F00890895 /* KissXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76271BAC394F00890895 /* KissXML.framework */; settings = {ASSET_TAGS = (); }; };
+		572B762D1BAC394F00890895 /* xml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76281BAC394F00890895 /* xml.framework */; settings = {ASSET_TAGS = (); }; };
+		572B76331BAC39DA00890895 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76301BAC39DA00890895 /* CocoaLumberjack.framework */; settings = {ASSET_TAGS = (); }; };
+		572B76341BAC39DA00890895 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76301BAC39DA00890895 /* CocoaLumberjack.framework */; settings = {ASSET_TAGS = (); }; };
+		572B76351BAC39DA00890895 /* KissXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76311BAC39DA00890895 /* KissXML.framework */; settings = {ASSET_TAGS = (); }; };
+		572B76361BAC39DA00890895 /* KissXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76311BAC39DA00890895 /* KissXML.framework */; settings = {ASSET_TAGS = (); }; };
+		572B76371BAC39DA00890895 /* xml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76321BAC39DA00890895 /* xml.framework */; settings = {ASSET_TAGS = (); }; };
+		572B76381BAC39DA00890895 /* xml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76321BAC39DA00890895 /* xml.framework */; settings = {ASSET_TAGS = (); }; };
+		572B763C1BAC3AF300890895 /* KissXML.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76271BAC394F00890895 /* KissXML.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		572B763E1BAC3AF300890895 /* CocoaLumberjack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76261BAC394F00890895 /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		572B76401BAC3FBD00890895 /* xml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76281BAC394F00890895 /* xml.framework */; };
+		572B76411BAC3FBD00890895 /* xml.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76281BAC394F00890895 /* xml.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5793F4D11B790CF5006CCEA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5793F4D01B790CF5006CCEA1 /* main.m */; };
 		5793F4D41B790CF5006CCEA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5793F4D31B790CF5006CCEA1 /* AppDelegate.m */; };
 		5793F4D71B790CF5006CCEA1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5793F4D61B790CF5006CCEA1 /* ViewController.m */; };
@@ -680,8 +694,6 @@
 		5799AE261B7140C9000FCD95 /* stringprep.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799ADEC1B7140C9000FCD95 /* stringprep.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		57D3ABF91B95D5E700725336 /* XMPPConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 57D3ABF81B95D50D00725336 /* XMPPConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		57D3ABFA1B96310500725336 /* XMPPConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 57D3ABF81B95D50D00725336 /* XMPPConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		57D3AD0D1B97679B00725336 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D3AD0A1B97674800725336 /* CocoaLumberjack.framework */; };
-		57D3AD101B9768D800725336 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D3AD041B97674800725336 /* CocoaLumberjack.framework */; };
 		57D3AD131B97695300725336 /* XMPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5799A9E91B712609000FCD95 /* XMPP.framework */; };
 		57D3AD141B97695300725336 /* XMPP.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5799A9E91B712609000FCD95 /* XMPP.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		57D3AD711B98811900725336 /* XMPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5799A9D91B711E5F000FCD95 /* XMPP.framework */; };
@@ -695,62 +707,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		570BEA9B1B8DFC7A00A1E65D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 570BEA911B8DFC7A00A1E65D /* KissXML.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8D1107320486CEB800E47090;
-			remoteInfo = KissXMLTest;
-		};
-		570BEA9D1B8DFC7A00A1E65D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 570BEA911B8DFC7A00A1E65D /* KissXML.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5793F4F81B791CA8006CCEA1;
-			remoteInfo = "KissXMLTest-iOS";
-		};
-		570BEA9F1B8DFC7A00A1E65D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 570BEA911B8DFC7A00A1E65D /* KissXML.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 579CF2E31B8A31D900FA62A5;
-			remoteInfo = "KissXMLTest-iOS-static";
-		};
-		570BEAA11B8DFC7A00A1E65D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 570BEA911B8DFC7A00A1E65D /* KissXML.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 57AE9A9D1B6BD14F002375BD;
-			remoteInfo = "KissXML (osx)";
-		};
-		570BEAA31B8DFC7A00A1E65D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 570BEA911B8DFC7A00A1E65D /* KissXML.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 57AE9ACE1B6BD9E9002375BD;
-			remoteInfo = "KissXML (ios)";
-		};
-		570BEAA51B8DFC7A00A1E65D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 570BEA911B8DFC7A00A1E65D /* KissXML.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5799A9191B6FEF06000FCD95;
-			remoteInfo = KissXML;
-		};
-		570BEAAB1B8DFCC200A1E65D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 570BEA911B8DFC7A00A1E65D /* KissXML.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 57AE9AB91B6BD9E9002375BD;
-			remoteInfo = "KissXML (ios)";
-		};
-		570BEAAD1B8DFCCE00A1E65D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 570BEA911B8DFC7A00A1E65D /* KissXML.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 5799A9181B6FEF06000FCD95;
-			remoteInfo = KissXML;
-		};
 		5793F4E41B790D2B006CCEA1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5799A9D01B711E5F000FCD95 /* Project object */;
@@ -758,96 +714,12 @@
 			remoteGlobalIDString = 5799A9E81B712609000FCD95;
 			remoteInfo = "XMPP (ios)";
 		};
-		57D3ACFB1B97674800725336 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 57D3ACEB1B97674800725336 /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DCB318CA14ED6C3B001CFBEE;
-			remoteInfo = FmwkTest;
-		};
-		57D3ACFD1B97674800725336 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 57D3ACEB1B97674800725336 /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 55CCBEFF19BA679200957A39;
-			remoteInfo = SwiftTest;
-		};
-		57D3ACFF1B97674800725336 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 57D3ACEB1B97674800725336 /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 18F3BF5F1A81DD2E00692297;
-			remoteInfo = iOSSwiftTest;
-		};
-		57D3AD011B97674800725336 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 57D3ACEB1B97674800725336 /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 18F3BFF21A81E0C700692297;
-			remoteInfo = iOSLibStaticTest;
-		};
-		57D3AD031B97674800725336 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 57D3ACEB1B97674800725336 /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DCB3185114EB418E001CFBEE;
-			remoteInfo = "CocoaLumberjack (osx)";
-		};
-		57D3AD051B97674800725336 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 57D3ACEB1B97674800725336 /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 18F3BF0F1A81D8B700692297;
-			remoteInfo = "CocoaLumberjack (osx swift)";
-		};
-		57D3AD071B97674800725336 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 57D3ACEB1B97674800725336 /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 18F3BFA71A81DF5600692297;
-			remoteInfo = "CocoaLumberjack (ios)";
-		};
-		57D3AD091B97674800725336 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 57D3ACEB1B97674800725336 /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 18F3BFC21A81DFA200692297;
-			remoteInfo = "CocoaLumberjack (ios swift)";
-		};
-		57D3AD0B1B97674800725336 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 57D3ACEB1B97674800725336 /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 18F3BFD71A81E06E00692297;
-			remoteInfo = "CocoaLumberjack (ios static)";
-		};
-		57D3AD0E1B9767A500725336 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 57D3ACEB1B97674800725336 /* Lumberjack.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 18F3BFA91A81DFA200692297;
-			remoteInfo = "CocoaLumberjack (ios swift)";
-		};
-		57D3AD111B9768EB00725336 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 57D3ACEB1B97674800725336 /* Lumberjack.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 18F3BEF61A81D8B700692297;
-			remoteInfo = "CocoaLumberjack (osx swift)";
-		};
 		57D3AD731B98811900725336 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5799A9D01B711E5F000FCD95 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5799A9D81B711E5F000FCD95;
 			remoteInfo = "XMPP (osx)";
-		};
-		57D3AD761B98815100725336 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 570BEA911B8DFC7A00A1E65D /* KissXML.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 57AE9A9C1B6BD14F002375BD;
-			remoteInfo = "KissXML (osx)";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -867,6 +739,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				572B763C1BAC3AF300890895 /* KissXML.framework in Embed Frameworks */,
+				572B763E1BAC3AF300890895 /* CocoaLumberjack.framework in Embed Frameworks */,
+				572B76411BAC3FBD00890895 /* xml.framework in Embed Frameworks */,
 				57D3AD141B97695300725336 /* XMPP.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -886,7 +761,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		570BEA911B8DFC7A00A1E65D /* KissXML.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KissXML.xcodeproj; path = ../../Vendor/KissXML/KissXML.xcodeproj; sourceTree = "<group>"; };
 		570BEAB91B8FA8D600A1E65D /* XMPP-framework-link-test-osx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XMPP-framework-link-test-osx.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		570BEABB1B8FA8D600A1E65D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		570BEABC1B8FA8D600A1E65D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -897,11 +771,15 @@
 		570BEAC71B8FA8D600A1E65D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		570BEAC91B8FA8D600A1E65D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		570BEAD11B8FB0A900A1E65D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		5793F4C11B78E724006CCEA1 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = ../../Vendor/CocoaLumberjack/build/Debug/CocoaLumberjack.framework; sourceTree = "<group>"; };
-		5793F4C31B78E733006CCEA1 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = "../../Vendor/CocoaLumberjack/build/Debug-iphoneos/CocoaLumberjack.framework"; sourceTree = "<group>"; };
+		572B76261BAC394F00890895 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = ../../Carthage/Build/iOS/CocoaLumberjack.framework; sourceTree = "<group>"; };
+		572B76271BAC394F00890895 /* KissXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KissXML.framework; path = ../../Carthage/Build/iOS/KissXML.framework; sourceTree = "<group>"; };
+		572B76281BAC394F00890895 /* xml.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = xml.framework; path = ../../Carthage/Build/iOS/xml.framework; sourceTree = "<group>"; };
+		572B76301BAC39DA00890895 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = ../../Carthage/Build/Mac/CocoaLumberjack.framework; sourceTree = "<group>"; };
+		572B76311BAC39DA00890895 /* KissXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KissXML.framework; path = ../../Carthage/Build/Mac/KissXML.framework; sourceTree = "<group>"; };
+		572B76321BAC39DA00890895 /* xml.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = xml.framework; path = ../../Carthage/Build/Mac/xml.framework; sourceTree = "<group>"; };
 		5793F4C71B79027D006CCEA1 /* XMPP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XMPP.h; path = ../../../Core/XMPP.h; sourceTree = "<group>"; };
 		5793F4C81B7902FE006CCEA1 /* XMPP.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = XMPP.modulemap; sourceTree = "<group>"; };
-		5793F4CD1B790CF5006CCEA1 /* XMPP-framework-link-test (ios).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XMPP-framework-link-test (ios).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5793F4CD1B790CF5006CCEA1 /* XMPP-framework-link-test-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XMPP-framework-link-test-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5793F4D01B790CF5006CCEA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5793F4D21B790CF5006CCEA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5793F4D31B790CF5006CCEA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1182,7 +1060,6 @@
 		5799ADEB1B7140C9000FCD95 /* libidn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libidn.a; sourceTree = "<group>"; };
 		5799ADEC1B7140C9000FCD95 /* stringprep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringprep.h; sourceTree = "<group>"; };
 		57D3ABF81B95D50D00725336 /* XMPPConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XMPPConfig.h; path = ../../../Core/XMPPConfig.h; sourceTree = "<group>"; };
-		57D3ACEB1B97674800725336 /* Lumberjack.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Lumberjack.xcodeproj; path = ../../Vendor/CocoaLumberjack/Lumberjack.xcodeproj; sourceTree = "<group>"; };
 		57D5FBD81B71481400EB4E00 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		57D5FBDA1B71481A00EB4E00 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		57D5FBDE1B71484400EB4E00 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
@@ -1196,6 +1073,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				572B76381BAC39DA00890895 /* xml.framework in Frameworks */,
+				572B76361BAC39DA00890895 /* KissXML.framework in Frameworks */,
+				572B76341BAC39DA00890895 /* CocoaLumberjack.framework in Frameworks */,
 				57D3AD711B98811900725336 /* XMPP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1204,6 +1084,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				572B76401BAC3FBD00890895 /* xml.framework in Frameworks */,
+				572B762C1BAC394F00890895 /* KissXML.framework in Frameworks */,
+				572B762A1BAC394F00890895 /* CocoaLumberjack.framework in Frameworks */,
 				57D3AD131B97695300725336 /* XMPP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1212,12 +1095,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57D3AD101B9768D800725336 /* CocoaLumberjack.framework in Frameworks */,
 				57D5FBDF1B71484400EB4E00 /* libresolv.tbd in Frameworks */,
-				57D5FBDB1B71481A00EB4E00 /* Security.framework in Frameworks */,
 				57D5FBD91B71481400EB4E00 /* CFNetwork.framework in Frameworks */,
-				5799AE221B7140C9000FCD95 /* libidn.a in Frameworks */,
 				570BEAD21B8FB0A900A1E65D /* Foundation.framework in Frameworks */,
+				57D5FBDB1B71481A00EB4E00 /* Security.framework in Frameworks */,
+				5799AE221B7140C9000FCD95 /* libidn.a in Frameworks */,
+				572B76371BAC39DA00890895 /* xml.framework in Frameworks */,
+				572B76351BAC39DA00890895 /* KissXML.framework in Frameworks */,
+				572B76331BAC39DA00890895 /* CocoaLumberjack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1225,11 +1110,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57D3AD0D1B97679B00725336 /* CocoaLumberjack.framework in Frameworks */,
-				570BEAAA1B8DFCBC00A1E65D /* KissXML.framework in Frameworks */,
 				57D5FBE71B714FCA00EB4E00 /* libresolv.tbd in Frameworks */,
-				57D5FBE31B714FBA00EB4E00 /* Security.framework in Frameworks */,
 				57D5FBE11B714FB500EB4E00 /* CFNetwork.framework in Frameworks */,
+				57D5FBE31B714FBA00EB4E00 /* Security.framework in Frameworks */,
+				572B762D1BAC394F00890895 /* xml.framework in Frameworks */,
+				572B762B1BAC394F00890895 /* KissXML.framework in Frameworks */,
+				572B76291BAC394F00890895 /* CocoaLumberjack.framework in Frameworks */,
 				5799AE231B7140C9000FCD95 /* libidn.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1245,19 +1131,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		570BEA921B8DFC7A00A1E65D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				570BEA9C1B8DFC7A00A1E65D /* KissXMLTest.app */,
-				570BEA9E1B8DFC7A00A1E65D /* KissXMLTest-iOS.app */,
-				570BEAA01B8DFC7A00A1E65D /* KissXMLTest-iOS-static.app */,
-				570BEAA21B8DFC7A00A1E65D /* KissXML.framework */,
-				570BEAA41B8DFC7A00A1E65D /* KissXML.framework */,
-				570BEAA61B8DFC7A00A1E65D /* libKissXML.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		570BEABA1B8FA8D600A1E65D /* XMPP-framework-link-test-osx */ = {
 			isa = PBXGroup;
 			children = (
@@ -1279,6 +1152,17 @@
 				570BEABF1B8FA8D600A1E65D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		572B762F1BAC398200890895 /* MacOSX */ = {
+			isa = PBXGroup;
+			children = (
+				57D5FBDE1B71484400EB4E00 /* libresolv.tbd */,
+				572B76301BAC39DA00890895 /* CocoaLumberjack.framework */,
+				572B76311BAC39DA00890895 /* KissXML.framework */,
+				572B76321BAC39DA00890895 /* xml.framework */,
+			);
+			name = MacOSX;
 			sourceTree = "<group>";
 		};
 		5793F4CE1B790CF5006CCEA1 /* XMPP-framework-link-test */ = {
@@ -1308,8 +1192,6 @@
 		5799A9CF1B711E5F000FCD95 = {
 			isa = PBXGroup;
 			children = (
-				570BEA911B8DFC7A00A1E65D /* KissXML.xcodeproj */,
-				57D3ACEB1B97674800725336 /* Lumberjack.xcodeproj */,
 				5799A9DB1B711E5F000FCD95 /* XMPP */,
 				5793F4CE1B790CF5006CCEA1 /* XMPP-framework-link-test */,
 				570BEABA1B8FA8D600A1E65D /* XMPP-framework-link-test-osx */,
@@ -1324,7 +1206,7 @@
 				5799A9D91B711E5F000FCD95 /* XMPP.framework */,
 				5799A9E91B712609000FCD95 /* XMPP.framework */,
 				5799A9F51B713E85000FCD95 /* libXMPP.a */,
-				5793F4CD1B790CF5006CCEA1 /* XMPP-framework-link-test (ios).app */,
+				5793F4CD1B790CF5006CCEA1 /* XMPP-framework-link-test-ios.app */,
 				570BEAB91B8FA8D600A1E65D /* XMPP-framework-link-test-osx.app */,
 			);
 			name = Products;
@@ -2158,22 +2040,6 @@
 			path = ../../../Vendor/libidn;
 			sourceTree = "<group>";
 		};
-		57D3ACEC1B97674800725336 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				57D3ACFC1B97674800725336 /* FmwkTest.app */,
-				57D3ACFE1B97674800725336 /* SwiftTest.app */,
-				57D3AD001B97674800725336 /* iOSSwiftTest.app */,
-				57D3AD021B97674800725336 /* iOSLibStaticTest.app */,
-				57D3AD041B97674800725336 /* CocoaLumberjack.framework */,
-				57D3AD061B97674800725336 /* CocoaLumberjack.framework */,
-				57D3AD081B97674800725336 /* CocoaLumberjack.framework */,
-				57D3AD0A1B97674800725336 /* CocoaLumberjack.framework */,
-				57D3AD0C1B97674800725336 /* libCocoaLumberjack.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		57D5FBD41B71425300EB4E00 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -2182,28 +2048,21 @@
 				57D5FBE01B714FB500EB4E00 /* CFNetwork.framework */,
 				57D5FBDA1B71481A00EB4E00 /* Security.framework */,
 				57D5FBD81B71481400EB4E00 /* CFNetwork.framework */,
-				5793F4C11B78E724006CCEA1 /* CocoaLumberjack.framework */,
-				57D5FBDE1B71484400EB4E00 /* libresolv.tbd */,
-				57D5FBD51B71426000EB4E00 /* iOS framework */,
-				57D5FBD61B71426900EB4E00 /* iOS static lib */,
+				572B762F1BAC398200890895 /* MacOSX */,
+				57D5FBD51B71426000EB4E00 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		57D5FBD51B71426000EB4E00 /* iOS framework */ = {
+		57D5FBD51B71426000EB4E00 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				5793F4C31B78E733006CCEA1 /* CocoaLumberjack.framework */,
+				572B76281BAC394F00890895 /* xml.framework */,
+				572B76271BAC394F00890895 /* KissXML.framework */,
+				572B76261BAC394F00890895 /* CocoaLumberjack.framework */,
 				57D5FBE61B714FCA00EB4E00 /* libresolv.tbd */,
 			);
-			name = "iOS framework";
-			sourceTree = "<group>";
-		};
-		57D5FBD61B71426900EB4E00 /* iOS static lib */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "iOS static lib";
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2523,28 +2382,29 @@
 			productReference = 570BEAB91B8FA8D600A1E65D /* XMPP-framework-link-test-osx.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5793F4CC1B790CF5006CCEA1 /* XMPP-framework-link-test (ios) */ = {
+		5793F4CC1B790CF5006CCEA1 /* XMPP-framework-link-test-ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5793F4E11B790CF6006CCEA1 /* Build configuration list for PBXNativeTarget "XMPP-framework-link-test (ios)" */;
+			buildConfigurationList = 5793F4E11B790CF6006CCEA1 /* Build configuration list for PBXNativeTarget "XMPP-framework-link-test-ios" */;
 			buildPhases = (
 				5793F4C91B790CF5006CCEA1 /* Sources */,
 				5793F4CA1B790CF5006CCEA1 /* Frameworks */,
 				5793F4CB1B790CF5006CCEA1 /* Resources */,
 				57D3AD151B97695400725336 /* Embed Frameworks */,
+				572B763F1BAC3B0600890895 /* Carthage copy libs */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				5793F4E51B790D2B006CCEA1 /* PBXTargetDependency */,
 			);
-			name = "XMPP-framework-link-test (ios)";
+			name = "XMPP-framework-link-test-ios";
 			productName = "XMPP-framework-link-test";
-			productReference = 5793F4CD1B790CF5006CCEA1 /* XMPP-framework-link-test (ios).app */;
+			productReference = 5793F4CD1B790CF5006CCEA1 /* XMPP-framework-link-test-ios.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5799A9D81B711E5F000FCD95 /* XMPP (osx) */ = {
+		5799A9D81B711E5F000FCD95 /* XMPP-osx */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5799A9E11B711E5F000FCD95 /* Build configuration list for PBXNativeTarget "XMPP (osx)" */;
+			buildConfigurationList = 5799A9E11B711E5F000FCD95 /* Build configuration list for PBXNativeTarget "XMPP-osx" */;
 			buildPhases = (
 				5799A9D41B711E5F000FCD95 /* Sources */,
 				5799A9D51B711E5F000FCD95 /* Frameworks */,
@@ -2554,17 +2414,15 @@
 			buildRules = (
 			);
 			dependencies = (
-				57D3AD771B98815100725336 /* PBXTargetDependency */,
-				57D3AD121B9768EB00725336 /* PBXTargetDependency */,
 			);
-			name = "XMPP (osx)";
+			name = "XMPP-osx";
 			productName = XMPP;
 			productReference = 5799A9D91B711E5F000FCD95 /* XMPP.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5799A9E81B712609000FCD95 /* XMPP (ios) */ = {
+		5799A9E81B712609000FCD95 /* XMPP-ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5799A9EE1B712609000FCD95 /* Build configuration list for PBXNativeTarget "XMPP (ios)" */;
+			buildConfigurationList = 5799A9EE1B712609000FCD95 /* Build configuration list for PBXNativeTarget "XMPP-ios" */;
 			buildPhases = (
 				5799A9E41B712609000FCD95 /* Sources */,
 				5799A9E51B712609000FCD95 /* Frameworks */,
@@ -2574,10 +2432,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				57D3AD0F1B9767A500725336 /* PBXTargetDependency */,
-				570BEAAC1B8DFCC200A1E65D /* PBXTargetDependency */,
 			);
-			name = "XMPP (ios)";
+			name = "XMPP-ios";
 			productName = XMPP;
 			productReference = 5799A9E91B712609000FCD95 /* XMPP.framework */;
 			productType = "com.apple.product-type.framework";
@@ -2593,7 +2449,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				570BEAAE1B8DFCCE00A1E65D /* PBXTargetDependency */,
 			);
 			name = XMPP;
 			productName = XMPP;
@@ -2636,134 +2491,16 @@
 			mainGroup = 5799A9CF1B711E5F000FCD95;
 			productRefGroup = 5799A9DA1B711E5F000FCD95 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 570BEA921B8DFC7A00A1E65D /* Products */;
-					ProjectRef = 570BEA911B8DFC7A00A1E65D /* KissXML.xcodeproj */;
-				},
-				{
-					ProductGroup = 57D3ACEC1B97674800725336 /* Products */;
-					ProjectRef = 57D3ACEB1B97674800725336 /* Lumberjack.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				5799A9D81B711E5F000FCD95 /* XMPP (osx) */,
-				5799A9E81B712609000FCD95 /* XMPP (ios) */,
+				5799A9D81B711E5F000FCD95 /* XMPP-osx */,
+				5799A9E81B712609000FCD95 /* XMPP-ios */,
 				5799A9F41B713E85000FCD95 /* XMPP */,
-				5793F4CC1B790CF5006CCEA1 /* XMPP-framework-link-test (ios) */,
 				570BEAB81B8FA8D600A1E65D /* XMPP-framework-link-test-osx */,
+				5793F4CC1B790CF5006CCEA1 /* XMPP-framework-link-test-ios */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		570BEA9C1B8DFC7A00A1E65D /* KissXMLTest.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = KissXMLTest.app;
-			remoteRef = 570BEA9B1B8DFC7A00A1E65D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		570BEA9E1B8DFC7A00A1E65D /* KissXMLTest-iOS.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "KissXMLTest-iOS.app";
-			remoteRef = 570BEA9D1B8DFC7A00A1E65D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		570BEAA01B8DFC7A00A1E65D /* KissXMLTest-iOS-static.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "KissXMLTest-iOS-static.app";
-			remoteRef = 570BEA9F1B8DFC7A00A1E65D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		570BEAA21B8DFC7A00A1E65D /* KissXML.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = KissXML.framework;
-			remoteRef = 570BEAA11B8DFC7A00A1E65D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		570BEAA41B8DFC7A00A1E65D /* KissXML.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = KissXML.framework;
-			remoteRef = 570BEAA31B8DFC7A00A1E65D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		570BEAA61B8DFC7A00A1E65D /* libKissXML.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libKissXML.a;
-			remoteRef = 570BEAA51B8DFC7A00A1E65D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		57D3ACFC1B97674800725336 /* FmwkTest.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = FmwkTest.app;
-			remoteRef = 57D3ACFB1B97674800725336 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		57D3ACFE1B97674800725336 /* SwiftTest.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = SwiftTest.app;
-			remoteRef = 57D3ACFD1B97674800725336 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		57D3AD001B97674800725336 /* iOSSwiftTest.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = iOSSwiftTest.app;
-			remoteRef = 57D3ACFF1B97674800725336 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		57D3AD021B97674800725336 /* iOSLibStaticTest.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = iOSLibStaticTest.app;
-			remoteRef = 57D3AD011B97674800725336 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		57D3AD041B97674800725336 /* CocoaLumberjack.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CocoaLumberjack.framework;
-			remoteRef = 57D3AD031B97674800725336 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		57D3AD061B97674800725336 /* CocoaLumberjack.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CocoaLumberjack.framework;
-			remoteRef = 57D3AD051B97674800725336 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		57D3AD081B97674800725336 /* CocoaLumberjack.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CocoaLumberjack.framework;
-			remoteRef = 57D3AD071B97674800725336 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		57D3AD0A1B97674800725336 /* CocoaLumberjack.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CocoaLumberjack.framework;
-			remoteRef = 57D3AD091B97674800725336 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		57D3AD0C1B97674800725336 /* libCocoaLumberjack.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libCocoaLumberjack.a;
-			remoteRef = 57D3AD0B1B97674800725336 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		570BEAB71B8FA8D600A1E65D /* Resources */ = {
@@ -2800,6 +2537,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		572B763F1BAC3B0600890895 /* Carthage copy libs */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/../../Carthage/Build/iOS/KissXML.framework",
+				"$(SRCROOT)/../../Carthage/Build/iOS/CocoaLumberjack.framework",
+				"$(SRCROOT)/../../Carthage/Build/iOS/xml.framework",
+			);
+			name = "Carthage copy libs";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		570BEAB51B8FA8D600A1E65D /* Sources */ = {
@@ -3225,40 +2983,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		570BEAAC1B8DFCC200A1E65D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "KissXML (ios)";
-			targetProxy = 570BEAAB1B8DFCC200A1E65D /* PBXContainerItemProxy */;
-		};
-		570BEAAE1B8DFCCE00A1E65D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KissXML;
-			targetProxy = 570BEAAD1B8DFCCE00A1E65D /* PBXContainerItemProxy */;
-		};
 		5793F4E51B790D2B006CCEA1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5799A9E81B712609000FCD95 /* XMPP (ios) */;
+			target = 5799A9E81B712609000FCD95 /* XMPP-ios */;
 			targetProxy = 5793F4E41B790D2B006CCEA1 /* PBXContainerItemProxy */;
-		};
-		57D3AD0F1B9767A500725336 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "CocoaLumberjack (ios swift)";
-			targetProxy = 57D3AD0E1B9767A500725336 /* PBXContainerItemProxy */;
-		};
-		57D3AD121B9768EB00725336 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "CocoaLumberjack (osx swift)";
-			targetProxy = 57D3AD111B9768EB00725336 /* PBXContainerItemProxy */;
 		};
 		57D3AD741B98811900725336 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5799A9D81B711E5F000FCD95 /* XMPP (osx) */;
+			target = 5799A9D81B711E5F000FCD95 /* XMPP-osx */;
 			targetProxy = 57D3AD731B98811900725336 /* PBXContainerItemProxy */;
-		};
-		57D3AD771B98815100725336 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "KissXML (osx)";
-			targetProxy = 57D3AD761B98815100725336 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -3655,7 +3388,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5793F4E11B790CF6006CCEA1 /* Build configuration list for PBXNativeTarget "XMPP-framework-link-test (ios)" */ = {
+		5793F4E11B790CF6006CCEA1 /* Build configuration list for PBXNativeTarget "XMPP-framework-link-test-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5793F4E21B790CF6006CCEA1 /* Debug */,
@@ -3673,7 +3406,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5799A9E11B711E5F000FCD95 /* Build configuration list for PBXNativeTarget "XMPP (osx)" */ = {
+		5799A9E11B711E5F000FCD95 /* Build configuration list for PBXNativeTarget "XMPP-osx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5799A9E21B711E5F000FCD95 /* Debug */,
@@ -3682,7 +3415,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5799A9EE1B712609000FCD95 /* Build configuration list for PBXNativeTarget "XMPP (ios)" */ = {
+		5799A9EE1B712609000FCD95 /* Build configuration list for PBXNativeTarget "XMPP-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5799A9EF1B712609000FCD95 /* Debug */,

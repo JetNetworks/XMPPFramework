@@ -7,3 +7,4 @@ project.xcworkspace
 .idea
 Xcode/Testing2/Pods
 **/*.xcscmblueprint
+Carthage
