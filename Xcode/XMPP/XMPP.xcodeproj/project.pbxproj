@@ -771,12 +771,12 @@
 		570BEAC71B8FA8D600A1E65D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		570BEAC91B8FA8D600A1E65D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		570BEAD11B8FB0A900A1E65D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		572B76261BAC394F00890895 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = ../../Carthage/Build/iOS/CocoaLumberjack.framework; sourceTree = "<group>"; };
-		572B76271BAC394F00890895 /* KissXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KissXML.framework; path = ../../Carthage/Build/iOS/KissXML.framework; sourceTree = "<group>"; };
-		572B76281BAC394F00890895 /* xml.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = xml.framework; path = ../../Carthage/Build/iOS/xml.framework; sourceTree = "<group>"; };
-		572B76301BAC39DA00890895 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = ../../Carthage/Build/Mac/CocoaLumberjack.framework; sourceTree = "<group>"; };
-		572B76311BAC39DA00890895 /* KissXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KissXML.framework; path = ../../Carthage/Build/Mac/KissXML.framework; sourceTree = "<group>"; };
-		572B76321BAC39DA00890895 /* xml.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = xml.framework; path = ../../Carthage/Build/Mac/xml.framework; sourceTree = "<group>"; };
+		572B76261BAC394F00890895 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = ../../Carthage/Build/iOS/CocoaLumberjack.framework; sourceTree = SOURCE_ROOT; };
+		572B76271BAC394F00890895 /* KissXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KissXML.framework; path = ../../Carthage/Build/iOS/KissXML.framework; sourceTree = SOURCE_ROOT; };
+		572B76281BAC394F00890895 /* xml.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = xml.framework; path = ../../Carthage/Build/iOS/xml.framework; sourceTree = SOURCE_ROOT; };
+		572B76301BAC39DA00890895 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = ../../Carthage/Build/Mac/CocoaLumberjack.framework; sourceTree = SOURCE_ROOT; };
+		572B76311BAC39DA00890895 /* KissXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KissXML.framework; path = ../../Carthage/Build/Mac/KissXML.framework; sourceTree = SOURCE_ROOT; };
+		572B76321BAC39DA00890895 /* xml.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = xml.framework; path = ../../Carthage/Build/Mac/xml.framework; sourceTree = SOURCE_ROOT; };
 		5793F4C71B79027D006CCEA1 /* XMPP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XMPP.h; path = ../../../Core/XMPP.h; sourceTree = "<group>"; };
 		5793F4C81B7902FE006CCEA1 /* XMPP.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = XMPP.modulemap; sourceTree = "<group>"; };
 		5793F4CD1B790CF5006CCEA1 /* XMPP-framework-link-test-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XMPP-framework-link-test-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -3254,6 +3254,11 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)",
+					"$(PROJECT_DIR)/../../Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "$(SRCROOT)/XMPP/Resources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -3280,6 +3285,11 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)",
+					"$(PROJECT_DIR)/../../Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "$(SRCROOT)/XMPP/Resources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -3307,6 +3317,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)",
+					"$(PROJECT_DIR)/../../Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/XMPP/Resources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -3331,6 +3346,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)",
+					"$(PROJECT_DIR)/../../Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/XMPP/Resources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
