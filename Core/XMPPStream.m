@@ -1875,7 +1875,7 @@ enum XMPPStreamConfig
 		// it may in turn invoke our sendAuthElement method, which expects us to be in STATE_XMPP_AUTH.
 		state = STATE_XMPP_AUTH;
 
-		if ([inAuth start:&err])
+		if ([inAuth startWithError:&err])
 		{
 			auth = inAuth;
 			result = YES;
@@ -3691,7 +3691,7 @@ enum XMPPStreamConfig
 	customBinding = delegateCustomBinding;
 
 	NSError *bindError = nil;
-	XMPPBindResult result = [customBinding start:&bindError];
+	XMPPBindResult result = [customBinding startWithError:&bindError];
 
 	if (result == XMPP_BIND_CONTINUE)
 	{

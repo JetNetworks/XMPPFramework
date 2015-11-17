@@ -45,7 +45,7 @@
 	return self;
 }
 
-- (BOOL)start:(NSError **)errPtr
+- (BOOL)startWithError:(NSError **)errPtr
 {
 	XMPPLogTrace();
 	

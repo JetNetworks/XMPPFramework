@@ -76,7 +76,7 @@ static NSString *const XMPPGoogleTalkHostName = @"talk.google.com";
     return self;
 }
 
-- (BOOL)start:(NSError **)errPtr
+- (BOOL)startWithError:(NSError **)errPtr
 {
     if (!accessToken)
 	{
