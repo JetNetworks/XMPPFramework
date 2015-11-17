@@ -51,7 +51,7 @@
 @import XMPP.Extensions.LastMessageCorrection;
 @import XMPP.Extensions.ChatMarkers;
 
-@import XMPP.Private;
+@import XMPP.Core.Authentication.Subclassing;
 
 @interface AppDelegate ()
 

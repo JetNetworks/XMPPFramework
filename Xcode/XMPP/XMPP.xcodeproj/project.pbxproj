@@ -83,13 +83,13 @@
 		5799AB6F1B713F8F000FCD95 /* XMPPCustomBinding.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA171B713F8F000FCD95 /* XMPPCustomBinding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5799AB701B713F8F000FCD95 /* XMPPSASLAuthentication.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA181B713F8F000FCD95 /* XMPPSASLAuthentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5799AB711B713F8F000FCD95 /* XMPPSASLAuthentication.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA181B713F8F000FCD95 /* XMPPSASLAuthentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5799AB721B713F8F000FCD95 /* NSData+XMPP.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA1A1B713F8F000FCD95 /* NSData+XMPP.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		5799AB731B713F8F000FCD95 /* NSData+XMPP.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA1A1B713F8F000FCD95 /* NSData+XMPP.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5799AB721B713F8F000FCD95 /* NSData+XMPP.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA1A1B713F8F000FCD95 /* NSData+XMPP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5799AB731B713F8F000FCD95 /* NSData+XMPP.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA1A1B713F8F000FCD95 /* NSData+XMPP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5799AB741B713F8F000FCD95 /* NSData+XMPP.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799AA1B1B713F8F000FCD95 /* NSData+XMPP.m */; };
 		5799AB751B713F8F000FCD95 /* NSData+XMPP.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799AA1B1B713F8F000FCD95 /* NSData+XMPP.m */; };
 		5799AB761B713F8F000FCD95 /* NSData+XMPP.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799AA1B1B713F8F000FCD95 /* NSData+XMPP.m */; };
-		5799AB771B713F8F000FCD95 /* NSNumber+XMPP.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA1C1B713F8F000FCD95 /* NSNumber+XMPP.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		5799AB781B713F8F000FCD95 /* NSNumber+XMPP.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA1C1B713F8F000FCD95 /* NSNumber+XMPP.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5799AB771B713F8F000FCD95 /* NSNumber+XMPP.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA1C1B713F8F000FCD95 /* NSNumber+XMPP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5799AB781B713F8F000FCD95 /* NSNumber+XMPP.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA1C1B713F8F000FCD95 /* NSNumber+XMPP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5799AB791B713F8F000FCD95 /* NSNumber+XMPP.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799AA1D1B713F8F000FCD95 /* NSNumber+XMPP.m */; };
 		5799AB7A1B713F8F000FCD95 /* NSNumber+XMPP.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799AA1D1B713F8F000FCD95 /* NSNumber+XMPP.m */; };
 		5799AB7B1B713F8F000FCD95 /* NSNumber+XMPP.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799AA1D1B713F8F000FCD95 /* NSNumber+XMPP.m */; };
@@ -110,8 +110,8 @@
 		5799AB8A1B713F8F000FCD95 /* XMPPElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799AA251B713F8F000FCD95 /* XMPPElement.m */; };
 		5799AB8B1B713F8F000FCD95 /* XMPPElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799AA251B713F8F000FCD95 /* XMPPElement.m */; };
 		5799AB8C1B713F8F000FCD95 /* XMPPElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799AA251B713F8F000FCD95 /* XMPPElement.m */; };
-		5799AB8D1B713F8F000FCD95 /* XMPPInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA261B713F8F000FCD95 /* XMPPInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		5799AB8E1B713F8F000FCD95 /* XMPPInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA261B713F8F000FCD95 /* XMPPInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5799AB8D1B713F8F000FCD95 /* XMPPInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA261B713F8F000FCD95 /* XMPPInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5799AB8E1B713F8F000FCD95 /* XMPPInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA261B713F8F000FCD95 /* XMPPInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5799AB8F1B713F8F000FCD95 /* XMPPIQ.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA271B713F8F000FCD95 /* XMPPIQ.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5799AB901B713F8F000FCD95 /* XMPPIQ.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA271B713F8F000FCD95 /* XMPPIQ.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5799AB911B713F8F000FCD95 /* XMPPIQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799AA281B713F8F000FCD95 /* XMPPIQ.m */; };
@@ -2089,6 +2089,7 @@
 				5799AB811B713F8F000FCD95 /* XMPPCore.h in Headers */,
 				5799AB831B713F8F000FCD95 /* XMPPConstants.h in Headers */,
 				5799AB881B713F8F000FCD95 /* XMPPElement.h in Headers */,
+				5799AB8D1B713F8F000FCD95 /* XMPPInternal.h in Headers */,
 				5799AB8F1B713F8F000FCD95 /* XMPPIQ.h in Headers */,
 				5799AB941B713F8F000FCD95 /* XMPPJID.h in Headers */,
 				5799AB991B713F8F000FCD95 /* XMPPLogging.h in Headers */,
@@ -2107,6 +2108,8 @@
 				5799AB5F1B713F8F000FCD95 /* XMPPSCRAMSHA1Authentication.h in Headers */,
 				5799AB641B713F8F000FCD95 /* XMPPXFacebookPlatformAuthentication.h in Headers */,
 				5799AB691B713F8F000FCD95 /* XMPPXOAuth2Google.h in Headers */,
+				5799AB721B713F8F000FCD95 /* NSData+XMPP.h in Headers */,
+				5799AB771B713F8F000FCD95 /* NSNumber+XMPP.h in Headers */,
 				5799AB7C1B713F8F000FCD95 /* NSXMLElement+XMPP.h in Headers */,
 				5799ADAE1B713F8F000FCD95 /* GCDMulticastDelegate.h in Headers */,
 				5799ADB81B713F8F000FCD95 /* XMPPIDTracker.h in Headers */,
@@ -2214,9 +2217,6 @@
 				5799ADED1B7140C9000FCD95 /* GCDAsyncSocket.h in Headers */,
 				5799AE201B7140C9000FCD95 /* idn-int.h in Headers */,
 				5799AE251B7140C9000FCD95 /* stringprep.h in Headers */,
-				5799AB8D1B713F8F000FCD95 /* XMPPInternal.h in Headers */,
-				5799AB721B713F8F000FCD95 /* NSData+XMPP.h in Headers */,
-				5799AB771B713F8F000FCD95 /* NSNumber+XMPP.h in Headers */,
 				5799ADA91B713F8F000FCD95 /* DDList.h in Headers */,
 				5799ADB31B713F8F000FCD95 /* RFImageToDataTransformer.h in Headers */,
 				5799AC0D1B713F8F000FCD95 /* XMPPRosterPrivate.h in Headers */,
@@ -2235,6 +2235,7 @@
 				5799AB821B713F8F000FCD95 /* XMPPCore.h in Headers */,
 				5799AB841B713F8F000FCD95 /* XMPPConstants.h in Headers */,
 				5799AB891B713F8F000FCD95 /* XMPPElement.h in Headers */,
+				5799AB8E1B713F8F000FCD95 /* XMPPInternal.h in Headers */,
 				5799AB901B713F8F000FCD95 /* XMPPIQ.h in Headers */,
 				5799AB951B713F8F000FCD95 /* XMPPJID.h in Headers */,
 				5799AB9A1B713F8F000FCD95 /* XMPPLogging.h in Headers */,
@@ -2253,6 +2254,8 @@
 				5799AB601B713F8F000FCD95 /* XMPPSCRAMSHA1Authentication.h in Headers */,
 				5799AB651B713F8F000FCD95 /* XMPPXFacebookPlatformAuthentication.h in Headers */,
 				5799AB6A1B713F8F000FCD95 /* XMPPXOAuth2Google.h in Headers */,
+				5799AB731B713F8F000FCD95 /* NSData+XMPP.h in Headers */,
+				5799AB781B713F8F000FCD95 /* NSNumber+XMPP.h in Headers */,
 				5799AB7D1B713F8F000FCD95 /* NSXMLElement+XMPP.h in Headers */,
 				5799ADAF1B713F8F000FCD95 /* GCDMulticastDelegate.h in Headers */,
 				5799ADB91B713F8F000FCD95 /* XMPPIDTracker.h in Headers */,
@@ -2358,9 +2361,6 @@
 				5799ADEE1B7140C9000FCD95 /* GCDAsyncSocket.h in Headers */,
 				5799AE211B7140C9000FCD95 /* idn-int.h in Headers */,
 				5799AE261B7140C9000FCD95 /* stringprep.h in Headers */,
-				5799AB8E1B713F8F000FCD95 /* XMPPInternal.h in Headers */,
-				5799AB731B713F8F000FCD95 /* NSData+XMPP.h in Headers */,
-				5799AB781B713F8F000FCD95 /* NSNumber+XMPP.h in Headers */,
 				5799ADAA1B713F8F000FCD95 /* DDList.h in Headers */,
 				5799ADB41B713F8F000FCD95 /* RFImageToDataTransformer.h in Headers */,
 				5799AC0E1B713F8F000FCD95 /* XMPPRosterPrivate.h in Headers */,
@@ -3295,7 +3295,6 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "$(PROJECT_DIR)/XMPP/Resources/XMPP-mac.modulemap";
-				MODULEMAP_PRIVATE_FILE = "$(PROJECT_DIR)/XMPP/Resources/XMPP-mac.private.modulemap";
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-DDEBUG=1",
@@ -3326,7 +3325,6 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "$(PROJECT_DIR)/XMPP/Resources/XMPP-mac.modulemap";
-				MODULEMAP_PRIVATE_FILE = "$(PROJECT_DIR)/XMPP/Resources/XMPP-mac.private.modulemap";
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-DDEBUG=0",
@@ -3359,7 +3357,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "$(PROJECT_DIR)/XMPP/Resources/XMPP-ios.modulemap";
-				MODULEMAP_PRIVATE_FILE = "$(PROJECT_DIR)/XMPP/Resources/XMPP-ios.private.modulemap";
+				MODULEMAP_PRIVATE_FILE = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.XMPP;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = iphoneos;
@@ -3389,7 +3387,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "$(PROJECT_DIR)/XMPP/Resources/XMPP-ios.modulemap";
-				MODULEMAP_PRIVATE_FILE = "$(PROJECT_DIR)/XMPP/Resources/XMPP-ios.private.modulemap";
+				MODULEMAP_PRIVATE_FILE = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.XMPP;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = iphoneos;
