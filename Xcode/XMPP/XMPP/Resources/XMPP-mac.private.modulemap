@@ -1,0 +1,11 @@
+explicit framework module XMPP.Private {
+    requires objc, objc_arc, blocks
+    
+    use KissXML
+    link framework "KissXML"
+    
+    use CocoaLumberjack
+    link framework "CocoaLumberjack"
+    
+    header "XMPPInternal.h"
+}

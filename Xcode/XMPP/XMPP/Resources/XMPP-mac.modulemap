@@ -1,64 +1,62 @@
 framework module XMPP {
     umbrella header "XMPP.h"
-
+    
     requires objc, objc_arc, blocks
-
+    
     /*
-    config_macros [exhaustive]  DEBUG,
-                                //
-                                USE_XMPP_SYSTEMINPUTACTIVITYMONITOR,
-                                USE_XMPP_EXT_BANDWIDTHMONITOR,
-                                USE_XMPP_EXT_GOOGLESHAREDSTATUS,
-                                USE_XMPP_EXT_RECONNECT,
-                                USE_XMPP_EXT_ROSTER,
-                                USE_XMPP_EXT_PROCESS_ONE,
-                                //
-                                USE_XMPP_XEP_0009, // XEP-0009 Jabber-RPC
-                                USE_XMPP_XEP_0012, // XEP-0012 Last Activity
-                                USE_XMPP_XEP_0016, // XEP-0016 Privacy Lists
-                                USE_XMPP_XEP_0045, // XEP-0045 Multi-User Chat
-                                USE_XMPP_XEP_0054, // XEP-0054 vcard-temp
-                                USE_XMPP_XEP_0059, // XEP-0059 Result Set Management
-                                USE_XMPP_XEP_0060, // XEP-0060 Publish-Subscribe
-                                USE_XMPP_XEP_0065, // XEP-0065 SOCKS5 Bytestreams
-                                USE_XMPP_XEP_0066, // XEP-0066 Out of Band Data
-                                USE_XMPP_XEP_0077, // XEP-0077 In-Band Registration
-                                USE_XMPP_XEP_0082, // XEP-0082 XMPP Date and Time Profiles
-                                USE_XMPP_XEP_0085, // XEP-0085 Chat State Notifications
-                                USE_XMPP_XEP_0092, // XEP-0092 Software Version
-                                USE_XMPP_XEP_0100, // XEP-0100 Gateway Interaction
-                                USE_XMPP_XEP_0106, // XEP-0106 JID Escaping
-                                USE_XMPP_XEP_0115, // XEP-0115 Entity Capabilities (effects a handful of other extensions)
-                                USE_XMPP_XEP_0136, // XEP-0136 Message Archiving
-                                USE_XMPP_XEP_0147, // XEP-0147 XMPP URI Scheme Query Components
-                                USE_XMPP_XEP_0153, // XEP-0153 vCard-Based Avatars
-                                USE_XMPP_XEP_0172, // XEP-0172 User Nickname
-                                USE_XMPP_XEP_0184, // XEP-0184 Message Delivery Receipts
-                                USE_XMPP_XEP_0191, // XEP-0191 Blocking Command
-                                USE_XMPP_XEP_0198, // XEP-0198 Stream Management
-                                USE_XMPP_XEP_0199, // XEP-0199 XMPP Ping
-                                USE_XMPP_XEP_0202, // XEP-0202 Entity Time
-                                USE_XMPP_XEP_0203, // XEP-0203 Delayed Delivery
-                                USE_XMPP_XEP_0223, // XEP-0223 Persistent Storage of Private Data via PubSub
-                                USE_XMPP_XEP_0224, // XEP-0224 Attention
-                                USE_XMPP_XEP_0280, // XEP-0280 Message Carbons
-                                USE_XMPP_XEP_0297, // XEP-0297 Stanza Forwarding
-                                USE_XMPP_XEP_0308, // XEP-0308 Last Message Correction
-                                USE_XMPP_XEP_0333, // XEP-0333 Chat Markers
-                                USE_XMPP_XEP_0335  // XEP-0335 JSON Containers
-    */
+     config_macros [exhaustive]  DEBUG,
+     //
+     USE_XMPP_SYSTEMINPUTACTIVITYMONITOR,
+     USE_XMPP_EXT_BANDWIDTHMONITOR,
+     USE_XMPP_EXT_GOOGLESHAREDSTATUS,
+     USE_XMPP_EXT_RECONNECT,
+     USE_XMPP_EXT_ROSTER,
+     USE_XMPP_EXT_PROCESS_ONE,
+     //
+     USE_XMPP_XEP_0009, // XEP-0009 Jabber-RPC
+     USE_XMPP_XEP_0012, // XEP-0012 Last Activity
+     USE_XMPP_XEP_0016, // XEP-0016 Privacy Lists
+     USE_XMPP_XEP_0045, // XEP-0045 Multi-User Chat
+     USE_XMPP_XEP_0054, // XEP-0054 vcard-temp
+     USE_XMPP_XEP_0059, // XEP-0059 Result Set Management
+     USE_XMPP_XEP_0060, // XEP-0060 Publish-Subscribe
+     USE_XMPP_XEP_0065, // XEP-0065 SOCKS5 Bytestreams
+     USE_XMPP_XEP_0066, // XEP-0066 Out of Band Data
+     USE_XMPP_XEP_0077, // XEP-0077 In-Band Registration
+     USE_XMPP_XEP_0082, // XEP-0082 XMPP Date and Time Profiles
+     USE_XMPP_XEP_0085, // XEP-0085 Chat State Notifications
+     USE_XMPP_XEP_0092, // XEP-0092 Software Version
+     USE_XMPP_XEP_0100, // XEP-0100 Gateway Interaction
+     USE_XMPP_XEP_0106, // XEP-0106 JID Escaping
+     USE_XMPP_XEP_0115, // XEP-0115 Entity Capabilities (effects a handful of other extensions)
+     USE_XMPP_XEP_0136, // XEP-0136 Message Archiving
+     USE_XMPP_XEP_0147, // XEP-0147 XMPP URI Scheme Query Components
+     USE_XMPP_XEP_0153, // XEP-0153 vCard-Based Avatars
+     USE_XMPP_XEP_0172, // XEP-0172 User Nickname
+     USE_XMPP_XEP_0184, // XEP-0184 Message Delivery Receipts
+     USE_XMPP_XEP_0191, // XEP-0191 Blocking Command
+     USE_XMPP_XEP_0198, // XEP-0198 Stream Management
+     USE_XMPP_XEP_0199, // XEP-0199 XMPP Ping
+     USE_XMPP_XEP_0202, // XEP-0202 Entity Time
+     USE_XMPP_XEP_0203, // XEP-0203 Delayed Delivery
+     USE_XMPP_XEP_0223, // XEP-0223 Persistent Storage of Private Data via PubSub
+     USE_XMPP_XEP_0224, // XEP-0224 Attention
+     USE_XMPP_XEP_0280, // XEP-0280 Message Carbons
+     USE_XMPP_XEP_0297, // XEP-0297 Stanza Forwarding
+     USE_XMPP_XEP_0308, // XEP-0308 Last Message Correction
+     USE_XMPP_XEP_0333, // XEP-0333 Chat Markers
+     USE_XMPP_XEP_0335  // XEP-0335 JSON Containers
+     */
     
     //export *
     //module * { export * }
 
-    // FIXME: This should only be for iOS
-    // FIXME: KissXML: `config_macros KISSXML_AS_NSXML`
     use KissXML
     link framework "KissXML"
 
     use CocoaLumberjack
     link framework "CocoaLumberjack"
-
+    
     // ?
     // Utilities (now all internal)
     exclude header "DDList.h"
@@ -70,27 +68,27 @@ framework module XMPP {
     exclude header "XMPPTimer.h"
     //exclude header "DDLog+LOGV.h"
     //exclude header "DDLegacyMacros.h"
-
+    
     module Config {
         header "XMPPConfig.h"
     }
     
     module Core {
         header "XMPPCore.h"
-
+        
         export *
-
+        
         module Misc {
             header "GCDAsyncSocket.h"
             
             header "XMPPConstants.h"
             header "XMPPParser.h"
         }
-
+        
         module Logging {
             header "XMPPLogging.h"
         }
-
+        
         module Authentication {
             header "XMPPSASLAuthentication.h"
             header "XMPPSASLAuthentication.h"
@@ -116,9 +114,9 @@ framework module XMPP {
             }
         }
     }
-
+    
     module Extensions {
-
+        
         // Framework extension: BandwidthMonitor
         // * type: XMPP Module (s)
         explicit module BandwidthMonitor {
@@ -133,7 +131,7 @@ framework module XMPP {
                 }
             }
         }
-
+        
         // Framework extension: FileTransfer
         // * type: XMPP Module (s)
         explicit module FileTransfer {
@@ -141,13 +139,13 @@ framework module XMPP {
             header "XMPPIncomingFileTransfer.h"
             header "XMPPOutgoingFileTransfer.h"
         }
-
+        
         // Framework extension: GoogleSharedStatus
         // * type: XMPP Module
         explicit module GoogleSharedStatus {
             header "XMPPGoogleSharedStatus.h"
         }
-    
+        
         // Framework extension: ProcessOne
         // * type: XMPP Module
         explicit module ProcessOne {
@@ -159,7 +157,7 @@ framework module XMPP {
         module Reconnect {
             header "XMPPReconnect.h"
         }
-    
+        
         // Framework extension: Roster
         // * type: XMPP Module
         module Roster {
@@ -186,7 +184,7 @@ framework module XMPP {
         explicit module SystemInputActivityMonitor {
             header "XMPPSystemInputActivityMonitor.h"
         }
-    
+        
         // XEP-0009 Jabber-RPC
         // * type: XMPP Module; Category (s) on XMPPIQ
         explicit module JabberRPC {
@@ -266,19 +264,19 @@ framework module XMPP {
             header "XMPPIQ+XEP_0066.h"
             header "XMPPMessage+XEP_0066.h"
         }
-
+        
         // XEP-0077 In-Band Registration
         // * type: XMPP Module
         explicit module InBandRegistration {
             header "XMPPRegistration.h"
         }
-
+        
         // XEP-0082 XMPP Date and Time Profiles
         // * type: fw root class
         explicit module DateAndTimeProfiles {
             header "XMPPDateTimeProfiles.h"
         }
-
+        
         // XEP-0085 Chat State Notifications
         // * type: Category on XMPPMessage
         explicit module ChatStateNotifications {
@@ -290,13 +288,13 @@ framework module XMPP {
         explicit module SoftwareVersion {
             header "XMPPSoftwareVersion.h"
         }
-
+        
         // XEP-0100 Gateway Interaction
         // * type: fw root class
         explicit module GatewayInteraction {
             header "XMPPTransports.h"
         }
-
+        
         // XEP-0106 JID Escaping
         // * type: Category on NSString
         explicit module JIDEscaping {
@@ -313,7 +311,7 @@ framework module XMPP {
                 }
             }
         }
-
+        
         // XEP-0136 Message Archiving
         // * type: XMPP Module
         explicit module MessageArchiving {
@@ -330,7 +328,7 @@ framework module XMPP {
         explicit module URISchemeQueryComponents {
             header "XMPPURI.h"
         }
-
+        
         // XEP-0153 vCard-Based Avatars
         // * type: XMPP Module
         explicit module vCardBasedAvatars {
@@ -345,19 +343,19 @@ framework module XMPP {
             header "XMPPMessage+XEP_0172.h"
             header "XMPPPresence+XEP_0172.h"
         }
-
+        
         // XEP-0184 Message Delivery Receipts
         // * type: XMPP Module
         explicit module MessageDeliveryReceipts {
             header "XMPPMessageDeliveryReceipts.h"
         }
-
+        
         // XEP-0191 Blocking Command
         // * type: XMPP Module
         explicit module BlockingCommand {
             header "XMPPBlocking.h"
         }
-
+        
         // XEP-0198 Stream Management
         // * type: XMPP Module, XMPPStreamManagementStorage
         explicit module StreamManagement {
@@ -368,14 +366,14 @@ framework module XMPP {
                 }
             }
         }
-
+        
         // XEP-0199 XMPP Ping
         // * type: XMPP Module (s)
         explicit module Ping {
             header "XMPPPing.h"
             header "XMPPAutoPing.h"
         }
-
+        
         // XEP-0202 Entity Time
         // * type: XMPP Module (s)
         explicit module EntityTime {
@@ -388,7 +386,7 @@ framework module XMPP {
         explicit module DelayedDelivery {
             header "NSXMLElement+XEP_0203.h"
         }
-
+        
         // XEP-0223 Persistent Storage of Private Data via PubSub
         // * type: fw root class
         explicit module PersistentStorageOfPrivateDataViaPubSub {
@@ -424,7 +422,7 @@ framework module XMPP {
         explicit module ChatMarkers {
             header "XMPPMessage+XEP_0333.h"
         }
-
+        
         // XEP-0335 JSON Containers
         // * type: Category on NSXMLElement
         explicit module JSONContainers {

@@ -14,17 +14,14 @@
 		570BEAC81B8FA8D600A1E65D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 570BEAC61B8FA8D600A1E65D /* Main.storyboard */; };
 		570BEAD01B8FAB4000A1E65D /* XMPP.h in Headers */ = {isa = PBXBuildFile; fileRef = 5793F4C71B79027D006CCEA1 /* XMPP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		570BEAD21B8FB0A900A1E65D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570BEAD11B8FB0A900A1E65D /* Foundation.framework */; };
-		572B76291BAC394F00890895 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76261BAC394F00890895 /* CocoaLumberjack.framework */; settings = {ASSET_TAGS = (); }; };
-		572B762A1BAC394F00890895 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76261BAC394F00890895 /* CocoaLumberjack.framework */; settings = {ASSET_TAGS = (); }; };
-		572B762B1BAC394F00890895 /* KissXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76271BAC394F00890895 /* KissXML.framework */; settings = {ASSET_TAGS = (); }; };
-		572B762C1BAC394F00890895 /* KissXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76271BAC394F00890895 /* KissXML.framework */; settings = {ASSET_TAGS = (); }; };
-		572B762D1BAC394F00890895 /* xml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76281BAC394F00890895 /* xml.framework */; settings = {ASSET_TAGS = (); }; };
-		572B76331BAC39DA00890895 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76301BAC39DA00890895 /* CocoaLumberjack.framework */; settings = {ASSET_TAGS = (); }; };
-		572B76341BAC39DA00890895 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76301BAC39DA00890895 /* CocoaLumberjack.framework */; settings = {ASSET_TAGS = (); }; };
-		572B76351BAC39DA00890895 /* KissXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76311BAC39DA00890895 /* KissXML.framework */; settings = {ASSET_TAGS = (); }; };
-		572B76361BAC39DA00890895 /* KissXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76311BAC39DA00890895 /* KissXML.framework */; settings = {ASSET_TAGS = (); }; };
-		572B76371BAC39DA00890895 /* xml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76321BAC39DA00890895 /* xml.framework */; settings = {ASSET_TAGS = (); }; };
-		572B76381BAC39DA00890895 /* xml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76321BAC39DA00890895 /* xml.framework */; settings = {ASSET_TAGS = (); }; };
+		572B76291BAC394F00890895 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76261BAC394F00890895 /* CocoaLumberjack.framework */; };
+		572B762A1BAC394F00890895 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76261BAC394F00890895 /* CocoaLumberjack.framework */; };
+		572B762B1BAC394F00890895 /* KissXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76271BAC394F00890895 /* KissXML.framework */; };
+		572B762C1BAC394F00890895 /* KissXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76271BAC394F00890895 /* KissXML.framework */; };
+		572B762D1BAC394F00890895 /* xml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76281BAC394F00890895 /* xml.framework */; };
+		572B76331BAC39DA00890895 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76301BAC39DA00890895 /* CocoaLumberjack.framework */; };
+		572B76341BAC39DA00890895 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76301BAC39DA00890895 /* CocoaLumberjack.framework */; };
+		572B76371BAC39DA00890895 /* xml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76321BAC39DA00890895 /* xml.framework */; };
 		572B763C1BAC3AF300890895 /* KissXML.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76271BAC394F00890895 /* KissXML.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		572B763E1BAC3AF300890895 /* CocoaLumberjack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76261BAC394F00890895 /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		572B76401BAC3FBD00890895 /* xml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76281BAC394F00890895 /* xml.framework */; };
@@ -36,6 +33,12 @@
 		5793F4DC1B790CF5006CCEA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5793F4DB1B790CF5006CCEA1 /* Assets.xcassets */; };
 		5793F4DF1B790CF6006CCEA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5793F4DD1B790CF6006CCEA1 /* LaunchScreen.storyboard */; };
 		5793F4E71B790DB8006CCEA1 /* XMPP.h in Headers */ = {isa = PBXBuildFile; fileRef = 5793F4C71B79027D006CCEA1 /* XMPP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5795C1891BFBCB3D0020071D /* xml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76321BAC39DA00890895 /* xml.framework */; };
+		5795C18A1BFBCB3D0020071D /* xml.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76321BAC39DA00890895 /* xml.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5795C18C1BFBCB5B0020071D /* CocoaLumberjack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76301BAC39DA00890895 /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5795C18F1BFBCCF60020071D /* KissXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76311BAC39DA00890895 /* KissXML.framework */; };
+		5795C1901BFBCD050020071D /* KissXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76311BAC39DA00890895 /* KissXML.framework */; };
+		5795C1911BFBCD050020071D /* KissXML.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 572B76311BAC39DA00890895 /* KissXML.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5799AB461B713F8F000FCD95 /* XMPPAnonymousAuthentication.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA001B713F8E000FCD95 /* XMPPAnonymousAuthentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5799AB471B713F8F000FCD95 /* XMPPAnonymousAuthentication.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA001B713F8E000FCD95 /* XMPPAnonymousAuthentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5799AB481B713F8F000FCD95 /* XMPPAnonymousAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799AA011B713F8E000FCD95 /* XMPPAnonymousAuthentication.m */; };
@@ -107,7 +110,7 @@
 		5799AB8A1B713F8F000FCD95 /* XMPPElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799AA251B713F8F000FCD95 /* XMPPElement.m */; };
 		5799AB8B1B713F8F000FCD95 /* XMPPElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799AA251B713F8F000FCD95 /* XMPPElement.m */; };
 		5799AB8C1B713F8F000FCD95 /* XMPPElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799AA251B713F8F000FCD95 /* XMPPElement.m */; };
-		5799AB8D1B713F8F000FCD95 /* XMPPInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA261B713F8F000FCD95 /* XMPPInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5799AB8D1B713F8F000FCD95 /* XMPPInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA261B713F8F000FCD95 /* XMPPInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		5799AB8E1B713F8F000FCD95 /* XMPPInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA261B713F8F000FCD95 /* XMPPInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		5799AB8F1B713F8F000FCD95 /* XMPPIQ.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA271B713F8F000FCD95 /* XMPPIQ.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5799AB901B713F8F000FCD95 /* XMPPIQ.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799AA271B713F8F000FCD95 /* XMPPIQ.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -753,6 +756,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				5795C1911BFBCD050020071D /* KissXML.framework in Embed Frameworks */,
+				5795C18A1BFBCB3D0020071D /* xml.framework in Embed Frameworks */,
+				5795C18C1BFBCB5B0020071D /* CocoaLumberjack.framework in Embed Frameworks */,
 				57D3AD721B98811900725336 /* XMPP.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -778,7 +784,7 @@
 		572B76311BAC39DA00890895 /* KissXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KissXML.framework; path = ../../Carthage/Build/Mac/KissXML.framework; sourceTree = SOURCE_ROOT; };
 		572B76321BAC39DA00890895 /* xml.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = xml.framework; path = ../../Carthage/Build/Mac/xml.framework; sourceTree = SOURCE_ROOT; };
 		5793F4C71B79027D006CCEA1 /* XMPP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XMPP.h; path = ../../../Core/XMPP.h; sourceTree = "<group>"; };
-		5793F4C81B7902FE006CCEA1 /* XMPP.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = XMPP.modulemap; sourceTree = "<group>"; };
+		5793F4C81B7902FE006CCEA1 /* XMPP-ios.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "XMPP-ios.modulemap"; sourceTree = "<group>"; };
 		5793F4CD1B790CF5006CCEA1 /* XMPP-framework-link-test-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XMPP-framework-link-test-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5793F4D01B790CF5006CCEA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5793F4D21B790CF5006CCEA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -789,6 +795,9 @@
 		5793F4DB1B790CF5006CCEA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5793F4DE1B790CF6006CCEA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5793F4E01B790CF6006CCEA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5795C1881BFB994F0020071D /* XMPP-ios.private.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "XMPP-ios.private.modulemap"; sourceTree = "<group>"; };
+		5795C18D1BFBCB940020071D /* XMPP-mac.private.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "XMPP-mac.private.modulemap"; sourceTree = "<group>"; };
+		5795C18E1BFBCBE60020071D /* XMPP-mac.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "XMPP-mac.modulemap"; sourceTree = "<group>"; };
 		5799A9D91B711E5F000FCD95 /* XMPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XMPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5799A9E91B712609000FCD95 /* XMPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XMPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5799A9F51B713E85000FCD95 /* libXMPP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXMPP.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1073,8 +1082,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				572B76381BAC39DA00890895 /* xml.framework in Frameworks */,
-				572B76361BAC39DA00890895 /* KissXML.framework in Frameworks */,
+				5795C1891BFBCB3D0020071D /* xml.framework in Frameworks */,
+				5795C1901BFBCD050020071D /* KissXML.framework in Frameworks */,
 				572B76341BAC39DA00890895 /* CocoaLumberjack.framework in Frameworks */,
 				57D3AD711B98811900725336 /* XMPP.framework in Frameworks */,
 			);
@@ -1101,7 +1110,7 @@
 				57D5FBDB1B71481A00EB4E00 /* Security.framework in Frameworks */,
 				5799AE221B7140C9000FCD95 /* libidn.a in Frameworks */,
 				572B76371BAC39DA00890895 /* xml.framework in Frameworks */,
-				572B76351BAC39DA00890895 /* KissXML.framework in Frameworks */,
+				5795C18F1BFBCCF60020071D /* KissXML.framework in Frameworks */,
 				572B76331BAC39DA00890895 /* CocoaLumberjack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2004,7 +2013,10 @@
 			isa = PBXGroup;
 			children = (
 				5799ADCD1B713FCB000FCD95 /* Info.plist */,
-				5793F4C81B7902FE006CCEA1 /* XMPP.modulemap */,
+				5793F4C81B7902FE006CCEA1 /* XMPP-ios.modulemap */,
+				5795C1881BFB994F0020071D /* XMPP-ios.private.modulemap */,
+				5795C18E1BFBCBE60020071D /* XMPP-mac.modulemap */,
+				5795C18D1BFBCB940020071D /* XMPP-mac.private.modulemap */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -2077,7 +2089,6 @@
 				5799AB811B713F8F000FCD95 /* XMPPCore.h in Headers */,
 				5799AB831B713F8F000FCD95 /* XMPPConstants.h in Headers */,
 				5799AB881B713F8F000FCD95 /* XMPPElement.h in Headers */,
-				5799AB8D1B713F8F000FCD95 /* XMPPInternal.h in Headers */,
 				5799AB8F1B713F8F000FCD95 /* XMPPIQ.h in Headers */,
 				5799AB941B713F8F000FCD95 /* XMPPJID.h in Headers */,
 				5799AB991B713F8F000FCD95 /* XMPPLogging.h in Headers */,
@@ -2203,6 +2214,7 @@
 				5799ADED1B7140C9000FCD95 /* GCDAsyncSocket.h in Headers */,
 				5799AE201B7140C9000FCD95 /* idn-int.h in Headers */,
 				5799AE251B7140C9000FCD95 /* stringprep.h in Headers */,
+				5799AB8D1B713F8F000FCD95 /* XMPPInternal.h in Headers */,
 				5799AB721B713F8F000FCD95 /* NSData+XMPP.h in Headers */,
 				5799AB771B713F8F000FCD95 /* NSNumber+XMPP.h in Headers */,
 				5799ADA91B713F8F000FCD95 /* DDList.h in Headers */,
@@ -3030,6 +3042,11 @@
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)",
+					"$(PROJECT_DIR)/../../Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = "XMPP-framework-link-test-osx/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
@@ -3046,6 +3063,11 @@
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)",
+					"$(PROJECT_DIR)/../../Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = "XMPP-framework-link-test-osx/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
@@ -3063,6 +3085,11 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)",
+					"$(PROJECT_DIR)/../../Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "XMPP-framework-link-test/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -3084,6 +3111,11 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)",
+					"$(PROJECT_DIR)/../../Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "XMPP-framework-link-test/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -3262,7 +3294,8 @@
 				INFOPLIST_FILE = "$(SRCROOT)/XMPP/Resources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "$(PROJECT_DIR)/XMPP/Resources/XMPP.modulemap";
+				MODULEMAP_FILE = "$(PROJECT_DIR)/XMPP/Resources/XMPP-mac.modulemap";
+				MODULEMAP_PRIVATE_FILE = "$(PROJECT_DIR)/XMPP/Resources/XMPP-mac.private.modulemap";
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-DDEBUG=1",
@@ -3292,7 +3325,8 @@
 				INFOPLIST_FILE = "$(SRCROOT)/XMPP/Resources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "$(PROJECT_DIR)/XMPP/Resources/XMPP.modulemap";
+				MODULEMAP_FILE = "$(PROJECT_DIR)/XMPP/Resources/XMPP-mac.modulemap";
+				MODULEMAP_PRIVATE_FILE = "$(PROJECT_DIR)/XMPP/Resources/XMPP-mac.private.modulemap";
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-DDEBUG=0",
@@ -3324,7 +3358,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "$(PROJECT_DIR)/XMPP/Resources/XMPP.modulemap";
+				MODULEMAP_FILE = "$(PROJECT_DIR)/XMPP/Resources/XMPP-ios.modulemap";
+				MODULEMAP_PRIVATE_FILE = "$(PROJECT_DIR)/XMPP/Resources/XMPP-ios.private.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.XMPP;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = iphoneos;
@@ -3353,7 +3388,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "$(PROJECT_DIR)/XMPP/Resources/XMPP.modulemap";
+				MODULEMAP_FILE = "$(PROJECT_DIR)/XMPP/Resources/XMPP-ios.modulemap";
+				MODULEMAP_PRIVATE_FILE = "$(PROJECT_DIR)/XMPP/Resources/XMPP-ios.private.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.XMPP;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = iphoneos;

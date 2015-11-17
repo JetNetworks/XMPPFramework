@@ -99,7 +99,7 @@ static const int xmppLogLevel = XMPP_LOG_LEVEL_WARN;
         
         [xmppStream sendAuthElement:auth];
         self.awaitingChallenge = YES;
-        
+            
         return YES;
     }
     else {

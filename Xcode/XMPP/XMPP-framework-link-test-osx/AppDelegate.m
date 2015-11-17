@@ -12,6 +12,7 @@
 @import XMPP.Extensions.GoogleSharedStatus;
 //@import XMPP.Extensions.SystemInputActivityMonitor;
 
+@import XMPP.Private;
 
 @interface AppDelegate ()
 
