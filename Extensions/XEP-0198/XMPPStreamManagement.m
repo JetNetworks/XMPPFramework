@@ -695,7 +695,7 @@
  * This method is called by automatically XMPPStream.
  * You MUST NOT invoke this method manually.
 **/
-- (XMPPBindResult)startWithError:(NSError **)errPtr
+- (XMPPBindResult)startAndReturnError:(NSError **)errPtr
 {
 	XMPPLogTrace();
 		
@@ -1619,7 +1619,7 @@
 {
 	if (autoResume)
 	{
-		// We will check canResume in startWithError: method (part of XMPPCustomBinding protocol)
+		// We will check canResume in startAndReturnError: method (part of XMPPCustomBinding protocol)
 		return self;
 	}
 	else

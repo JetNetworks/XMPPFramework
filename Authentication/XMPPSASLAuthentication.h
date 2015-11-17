@@ -76,7 +76,7 @@ typedef NS_ENUM(NSInteger, XMPPHandleAuthResponse) {
  * This method is called by automatically XMPPStream (via the authenticate: method).
  * You should NOT invoke this method manually.
 **/
-- (BOOL)startWithError:(NSError **)errPtr;
+- (BOOL)startAndReturnError:(NSError **)errPtr;
 
 /**
  * After the authentication process has started, all incoming xmpp stanzas are routed to this method.

@@ -309,7 +309,7 @@ NSString *const XMPPProcessOneSessionDate = @"XMPPProcessOneSessionDate";
 	return self;
 }
 
-- (BOOL)startWithError:(NSError **)errPtr
+- (BOOL)startAndReturnError:(NSError **)errPtr
 {
 	if (!sessionID || !sessionJID)
 	{

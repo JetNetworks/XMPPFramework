@@ -478,7 +478,7 @@ extern const NSTimeInterval XMPPStreamTimeoutNone;
  * All other authentication methods go through this one.
  * 
  * This method attempts to start the authentication process given the auth instance.
- * That is, this method will invoke startWithError: on the given auth instance.
+ * That is, this method will invoke startAndReturnError: on the given auth instance.
  * If it returns YES, then the stream will enter into authentication mode.
  * It will then continually invoke the handleAuth: method on the given instance until authentication is complete.
  * 

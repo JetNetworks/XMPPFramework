@@ -60,7 +60,7 @@ typedef NS_ENUM(NSInteger, XMPPBindResult) {
  * This method is called by automatically XMPPStream.
  * You MUST NOT invoke this method manually.
 **/
-- (XMPPBindResult)startWithError:(NSError **)errPtr;
+- (XMPPBindResult)startAndReturnError:(NSError **)errPtr;
 
 /**
  * After the custom binding process has started, all incoming xmpp stanzas are routed to this method.

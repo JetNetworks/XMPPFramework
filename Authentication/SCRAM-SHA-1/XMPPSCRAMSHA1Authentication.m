@@ -87,7 +87,7 @@ static const int xmppLogLevel = XMPP_LOG_LEVEL_WARN;
     return self;
 }
 
-- (BOOL)startWithError:(NSError **)errPtr
+- (BOOL)startAndReturnError:(NSError **)errPtr
 {
 	XMPPLogTrace();
 

@@ -52,7 +52,7 @@
 	return [self initWithStream:stream];
 }
 
-- (BOOL)startWithError:(NSError **)errPtr
+- (BOOL)startAndReturnError:(NSError **)errPtr
 {
 	// <auth xmlns="urn:ietf:params:xml:ns:xmpp-sasl" mechanism="ANONYMOUS" />
 	

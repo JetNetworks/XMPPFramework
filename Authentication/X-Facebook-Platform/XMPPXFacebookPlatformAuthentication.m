@@ -77,7 +77,7 @@ static char facebookAppIdKey;
     return self;
 }
 
-- (BOOL)startWithError:(NSError **)errPtr
+- (BOOL)startAndReturnError:(NSError **)errPtr
 {
 	if (!appId || !accessToken)
 	{
