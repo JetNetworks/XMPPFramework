@@ -23,7 +23,8 @@
 #  Choose your libidn version and your currently-installed iOS SDK version:
 #
 VERSION="1.25"
-SDKVERSION="6.0"
+SDKVERSION="9.1"
+MIN_SDKVERSION="6.0"
 #
 #
 ###########################################################################
@@ -34,7 +35,10 @@ SDKVERSION="6.0"
 
 # No need to change this since xcode build will only compile in the
 # necessary bits from the libraries we create
-ARCHS="i386 armv7 armv7s"
+#
+ARCHS="i386 x86_64 armv7 armv7s arm64"
+# ARCHS="i386 armv7"
+# ARCHS="armv7"
 
 DEVELOPER=`xcode-select -print-path`
 
@@ -68,7 +72,7 @@ if [ ! -e "${SRCDIR}/libidn-${VERSION}.tar.gz" ]; then
 	echo "Downloading libidn-${VERSION}.tar.gz"
     curl -LO http://ftp.gnu.org/gnu/libidn/libidn-${VERSION}.tar.gz
 else
-    
+
 	echo "Using libidn-${VERSION}.tar.gz"
 fi
 
@@ -86,26 +90,34 @@ else
 fi
 set -e # back to regular "bail out on error" mode
 
+MYCC="$(xcrun -f cc)"
+
 for ARCH in ${ARCHS}
 do
-	if [ "${ARCH}" == "i386" ];
-	then
-		PLATFORM="iPhoneSimulator"
-        EXTRA_CONFIG=""
-        EXTRA_CFLAGS=""
-	else
-		PLATFORM="iPhoneOS"
-        EXTRA_CONFIG="--host=arm-apple-darwin10 --disable-asm"
-        EXTRA_CFLAGS="-DNO_ASM"
-	fi
+	case "${ARCH}" in
+		*86*)
+			PLATFORM="iPhoneSimulator"
+			EXTRA_CONFIG=""
+			EXTRA_CFLAGS="-mios-version-min=$MIN_SDKVERSION"
+			;;
+		*)
+			PLATFORM="iPhoneOS"
+			EXTRA_CONFIG="--host=arm-apple-darwin10 --disable-asm"
+			EXTRA_CFLAGS="-DNO_ASM -fembed-bitcode -mios-version-min=$MIN_SDKVERSION"
+			;;
+	esac
 
 	mkdir -p "${INTERDIR}/${PLATFORM}${SDKVERSION}-${ARCH}.sdk"
 
-	./configure --disable-shared --enable-static ${EXTRA_CONFIG} \
+	#CC="${CCACHE}${DEVELOPER}/Platforms/${PLATFORM}.platform/Developer/usr/bin/gcc -arch ${ARCH}" \
+	echo "================================================================"
+	echo ">>> EXTRA_CFLAGS: $EXTRA_CFLAGS"
+	echo "================================================================"
+	./configure --disable-shared --enable-static --disable-java --disable-csharp ${EXTRA_CONFIG} \
     --prefix="${INTERDIR}/${PLATFORM}${SDKVERSION}-${ARCH}.sdk" \
-    CC="${CCACHE}${DEVELOPER}/Platforms/${PLATFORM}.platform/Developer/usr/bin/gcc -arch ${ARCH}" \
+    CC="${MYCC} -arch ${ARCH}" \
     LDFLAGS="$LDFLAGS -L${OUTPUTDIR}/lib" \
-    CFLAGS="$CFLAGS ${EXTRA_CFLAGS} -I${OUTPUTDIR}/include -isysroot ${DEVELOPER}/Platforms/${PLATFORM}.platform/Developer/SDKs/${PLATFORM}${SDKVERSION}.sdk" \
+    CFLAGS="$CFLAGS $EXTRA_CFLAGS -I${OUTPUTDIR}/include -isysroot ${DEVELOPER}/Platforms/${PLATFORM}.platform/Developer/SDKs/${PLATFORM}${SDKVERSION}.sdk" \
     CPPFLAGS="$CPPFLAGS -I${OUTPUTDIR}/include -isysroot ${DEVELOPER}/Platforms/${PLATFORM}.platform/Developer/SDKs/${PLATFORM}${SDKVERSION}.sdk"
 
     # Build the application and install it to the fake SDK intermediary dir
@@ -125,12 +137,10 @@ OUTPUT_LIBS="libidn.a"
 for OUTPUT_LIB in ${OUTPUT_LIBS}; do
     INPUT_LIBS=""
     for ARCH in ${ARCHS}; do
-        if [ "${ARCH}" == "i386" ];
-        then
-            PLATFORM="iPhoneSimulator"
-        else
-            PLATFORM="iPhoneOS"
-        fi
+				case "${ARCH}" in
+					*86*) PLATFORM="iPhoneSimulator" ;;
+					*)         PLATFORM="iPhoneOS"   ;;
+				esac
         INPUT_ARCH_LIB="${INTERDIR}/${PLATFORM}${SDKVERSION}-${ARCH}.sdk/lib/${OUTPUT_LIB}"
         if [ -e $INPUT_ARCH_LIB ]; then
             INPUT_LIBS="${INPUT_LIBS} ${INPUT_ARCH_LIB}"
@@ -146,12 +156,10 @@ for OUTPUT_LIB in ${OUTPUT_LIBS}; do
 done
 
 for ARCH in ${ARCHS}; do
-    if [ "${ARCH}" == "i386" ];
-    then
-        PLATFORM="iPhoneSimulator"
-    else
-        PLATFORM="iPhoneOS"
-    fi
+		case "${ARCH}" in
+			*86*) PLATFORM="iPhoneSimulator" ;;
+			*)         PLATFORM="iPhoneOS"   ;;
+		esac
     cp -R ${INTERDIR}/${PLATFORM}${SDKVERSION}-${ARCH}.sdk/include/* ${OUTPUTDIR}/include/
     if [ $? == "0" ]; then
         # We only need to copy the headers over once. (So break out of forloop
@@ -161,12 +169,10 @@ for ARCH in ${ARCHS}; do
 done
 
 for ARCH in ${ARCHS}; do
-    if [ "${ARCH}" == "i386" ];
-    then
-        PLATFORM="iPhoneSimulator"
-    else
-        PLATFORM="iPhoneOS"
-    fi
+	case "${ARCH}" in
+		*86*) PLATFORM="iPhoneSimulator" ;;
+		*)         PLATFORM="iPhoneOS"        ;;
+	esac
     cp -R ${INTERDIR}/${PLATFORM}${SDKVERSION}-${ARCH}.sdk/bin/* ${OUTPUTDIR}/bin/
     if [ $? == "0" ]; then
         # We only need to copy the binaries over once. (So break out of forloop
