@@ -1,0 +1,21 @@
+//
+//  environment.xcconfig
+//  XMPP
+//
+//  Created by Armando Di Cianno on 12/3/15.
+//
+//
+
+// e.g. if needed for specificity: FOO[config=*][sdk=iphoneos*][arch=*] = derp
+
+ENABLE_BITCODE[sdk=iphonesimulator*] = Yes
+ENABLE_BITCODE[sdk=iphoneos*] = Yes
+ENABLE_BITCODE[sdk=macosx*] = No
+
+HEADER_SEARCH_PATHS[sdk=iphonesimulator*] = "$(PROJECT_DIR)/../../Vendor/libidn/ios" "$(SDKROOT)/usr/include/libxml2"
+HEADER_SEARCH_PATHS[sdk=iphoneos*] = "$(PROJECT_DIR)/../../Vendor/libidn/ios" "$(SDKROOT)/usr/include/libxml2"
+HEADER_SEARCH_PATHS[sdk=macosx*] = "$(PROJECT_DIR)/../../Vendor/libidn/osx" "$(SDKROOT)/usr/include/libxml2"
+
+LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*] = "$(PROJECT_DIR)/../../Vendor/libidn/ios"
+LIBRARY_SEARCH_PATHS[sdk=iphoneos*] = "$(PROJECT_DIR)/../../Vendor/libidn/ios"
+LIBRARY_SEARCH_PATHS[sdk=macosx*] = "$(PROJECT_DIR)/../../Vendor/libidn/osx"

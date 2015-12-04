@@ -8,3 +8,6 @@ project.xcworkspace
 Xcode/Testing2/Pods
 **/*.xcscmblueprint
 Carthage
+Vendor/libidn/build
+Vendor/libidn/dependencies
+

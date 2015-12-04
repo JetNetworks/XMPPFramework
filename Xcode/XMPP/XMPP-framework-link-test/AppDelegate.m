@@ -194,6 +194,10 @@
     XMPPMessage *markerMsg = [XMPPMessage message];
     NSLog(@"%@", @([markerMsg hasChatMarker]));
     
+    XMPPJID *prepJID = [XMPPJID jidWithString:@"Name@server.com/FooBar"];
+    NSString *preppedName = [XMPPStringPrep prepNode:[prepJID user]];
+    NSLog(@"%@", preppedName);
+    
     return YES;
 }
 

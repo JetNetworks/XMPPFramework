@@ -28,6 +28,10 @@
     
     XMPPGoogleSharedStatus *google = [[XMPPGoogleSharedStatus alloc] initWithDispatchQueue:nil];
     NSLog(@"%@", @([google sharedStatusSupported]));
+    
+    XMPPJID *prepJID = [XMPPJID jidWithString:@"Name@server.com/FooBar"];
+    NSString *preppedName = [XMPPStringPrep prepNode:[prepJID user]];
+    NSLog(@"%@", preppedName);
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {

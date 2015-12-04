@@ -66,11 +66,7 @@ framework module XMPP {
     exclude header "RFImageToDataTransformer.h"
     exclude header "XMPPIDTracker.h"
     exclude header "XMPPSRVResolver.h"
-    exclude header "XMPPStringPrep.h"
     exclude header "XMPPTimer.h"
-    exclude header "XMPPInternal.h"
-    //exclude header "DDLog+LOGV.h"
-    //exclude header "DDLegacyMacros.h"
 
     module Config {
         header "XMPPConfig.h"
@@ -105,6 +101,7 @@ framework module XMPP {
             header "XMPPDeprecatedDigestAuthentication.h"
             explicit module Subclassing {
                 header "XMPPInternal.h"
+                header "XMPPStringPrep.h"
             }
         }
         

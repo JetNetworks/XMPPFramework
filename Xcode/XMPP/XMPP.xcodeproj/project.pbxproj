@@ -688,13 +688,13 @@
 		5799ADEF1B7140C9000FCD95 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799ADD31B7140C9000FCD95 /* GCDAsyncSocket.m */; };
 		5799ADF01B7140C9000FCD95 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799ADD31B7140C9000FCD95 /* GCDAsyncSocket.m */; };
 		5799ADF11B7140C9000FCD95 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799ADD31B7140C9000FCD95 /* GCDAsyncSocket.m */; };
-		5799AE201B7140C9000FCD95 /* idn-int.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799ADEA1B7140C9000FCD95 /* idn-int.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		5799AE211B7140C9000FCD95 /* idn-int.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799ADEA1B7140C9000FCD95 /* idn-int.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		5799AE221B7140C9000FCD95 /* libidn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5799ADEB1B7140C9000FCD95 /* libidn.a */; };
-		5799AE231B7140C9000FCD95 /* libidn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5799ADEB1B7140C9000FCD95 /* libidn.a */; };
-		5799AE241B7140C9000FCD95 /* libidn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5799ADEB1B7140C9000FCD95 /* libidn.a */; };
-		5799AE251B7140C9000FCD95 /* stringprep.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799ADEC1B7140C9000FCD95 /* stringprep.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		5799AE261B7140C9000FCD95 /* stringprep.h in Headers */ = {isa = PBXBuildFile; fileRef = 5799ADEC1B7140C9000FCD95 /* stringprep.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		57A8E6011C1107350018644F /* libidn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A8E5FB1C1107350018644F /* libidn.a */; };
+		57A8E6061C1107E50018644F /* stringprep.h in Headers */ = {isa = PBXBuildFile; fileRef = 57A8E5FC1C1107350018644F /* stringprep.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		57A8E6071C1107E50018644F /* idn-int.h in Headers */ = {isa = PBXBuildFile; fileRef = 57A8E5FA1C1107350018644F /* idn-int.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		57A8E6091C1107EE0018644F /* stringprep.h in Headers */ = {isa = PBXBuildFile; fileRef = 57A8E6001C1107350018644F /* stringprep.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		57A8E60A1C1107EE0018644F /* idn-int.h in Headers */ = {isa = PBXBuildFile; fileRef = 57A8E5FE1C1107350018644F /* idn-int.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		57A8E60B1C1107EE0018644F /* libidn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A8E5FF1C1107350018644F /* libidn.a */; };
+		57A8E60C1C1114070018644F /* libidn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A8E5FB1C1107350018644F /* libidn.a */; };
 		57D3ABF91B95D5E700725336 /* XMPPConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 57D3ABF81B95D50D00725336 /* XMPPConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		57D3ABFA1B96310500725336 /* XMPPConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 57D3ABF81B95D50D00725336 /* XMPPConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		57D3AD131B97695300725336 /* XMPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5799A9E91B712609000FCD95 /* XMPP.framework */; };
@@ -1065,9 +1065,14 @@
 		5799ADD21B7140C9000FCD95 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
 		5799ADD31B7140C9000FCD95 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
 		5799ADE91B7140C9000FCD95 /* build-libidn.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "build-libidn.sh"; sourceTree = "<group>"; };
-		5799ADEA1B7140C9000FCD95 /* idn-int.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "idn-int.h"; sourceTree = "<group>"; };
-		5799ADEB1B7140C9000FCD95 /* libidn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libidn.a; sourceTree = "<group>"; };
-		5799ADEC1B7140C9000FCD95 /* stringprep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringprep.h; sourceTree = "<group>"; };
+		57A8E5F71C1104640018644F /* environment.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = environment.xcconfig; path = XMPP/environment.xcconfig; sourceTree = "<group>"; };
+		57A8E5F81C1107240018644F /* build-libidn-osx.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "build-libidn-osx.sh"; sourceTree = "<group>"; };
+		57A8E5FA1C1107350018644F /* idn-int.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "idn-int.h"; sourceTree = "<group>"; };
+		57A8E5FB1C1107350018644F /* libidn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libidn.a; sourceTree = "<group>"; };
+		57A8E5FC1C1107350018644F /* stringprep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringprep.h; sourceTree = "<group>"; };
+		57A8E5FE1C1107350018644F /* idn-int.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "idn-int.h"; sourceTree = "<group>"; };
+		57A8E5FF1C1107350018644F /* libidn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libidn.a; sourceTree = "<group>"; };
+		57A8E6001C1107350018644F /* stringprep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringprep.h; sourceTree = "<group>"; };
 		57D3ABF81B95D50D00725336 /* XMPPConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XMPPConfig.h; path = ../../../Core/XMPPConfig.h; sourceTree = "<group>"; };
 		57D5FBD81B71481400EB4E00 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		57D5FBDA1B71481A00EB4E00 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -1105,10 +1110,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				57D5FBDF1B71484400EB4E00 /* libresolv.tbd in Frameworks */,
+				57A8E60B1C1107EE0018644F /* libidn.a in Frameworks */,
 				57D5FBD91B71481400EB4E00 /* CFNetwork.framework in Frameworks */,
 				570BEAD21B8FB0A900A1E65D /* Foundation.framework in Frameworks */,
 				57D5FBDB1B71481A00EB4E00 /* Security.framework in Frameworks */,
-				5799AE221B7140C9000FCD95 /* libidn.a in Frameworks */,
 				572B76371BAC39DA00890895 /* xml.framework in Frameworks */,
 				5795C18F1BFBCCF60020071D /* KissXML.framework in Frameworks */,
 				572B76331BAC39DA00890895 /* CocoaLumberjack.framework in Frameworks */,
@@ -1119,13 +1124,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57A8E60C1C1114070018644F /* libidn.a in Frameworks */,
 				57D5FBE71B714FCA00EB4E00 /* libresolv.tbd in Frameworks */,
 				57D5FBE11B714FB500EB4E00 /* CFNetwork.framework in Frameworks */,
 				57D5FBE31B714FBA00EB4E00 /* Security.framework in Frameworks */,
 				572B762D1BAC394F00890895 /* xml.framework in Frameworks */,
 				572B762B1BAC394F00890895 /* KissXML.framework in Frameworks */,
 				572B76291BAC394F00890895 /* CocoaLumberjack.framework in Frameworks */,
-				5799AE231B7140C9000FCD95 /* libidn.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1133,7 +1138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5799AE241B7140C9000FCD95 /* libidn.a in Frameworks */,
+				57A8E6011C1107350018644F /* libidn.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1201,6 +1206,7 @@
 		5799A9CF1B711E5F000FCD95 = {
 			isa = PBXGroup;
 			children = (
+				57A8E5F71C1104640018644F /* environment.xcconfig */,
 				5799A9DB1B711E5F000FCD95 /* XMPP */,
 				5793F4CE1B790CF5006CCEA1 /* XMPP-framework-link-test */,
 				570BEABA1B8FA8D600A1E65D /* XMPP-framework-link-test-osx */,
@@ -2044,12 +2050,32 @@
 			isa = PBXGroup;
 			children = (
 				5799ADE91B7140C9000FCD95 /* build-libidn.sh */,
-				5799ADEA1B7140C9000FCD95 /* idn-int.h */,
-				5799ADEB1B7140C9000FCD95 /* libidn.a */,
-				5799ADEC1B7140C9000FCD95 /* stringprep.h */,
+				57A8E5F81C1107240018644F /* build-libidn-osx.sh */,
+				57A8E5F91C1107350018644F /* ios */,
+				57A8E5FD1C1107350018644F /* osx */,
 			);
 			name = libidn;
 			path = ../../../Vendor/libidn;
+			sourceTree = "<group>";
+		};
+		57A8E5F91C1107350018644F /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				57A8E5FC1C1107350018644F /* stringprep.h */,
+				57A8E5FA1C1107350018644F /* idn-int.h */,
+				57A8E5FB1C1107350018644F /* libidn.a */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		57A8E5FD1C1107350018644F /* osx */ = {
+			isa = PBXGroup;
+			children = (
+				57A8E6001C1107350018644F /* stringprep.h */,
+				57A8E5FE1C1107350018644F /* idn-int.h */,
+				57A8E5FF1C1107350018644F /* libidn.a */,
+			);
+			path = osx;
 			sourceTree = "<group>";
 		};
 		57D5FBD41B71425300EB4E00 /* Frameworks */ = {
@@ -2213,10 +2239,10 @@
 				5799AD951B713F8F000FCD95 /* NSXMLElement+XEP_0297.h in Headers */,
 				5799AD9A1B713F8F000FCD95 /* XMPPMessage+XEP_0308.h in Headers */,
 				5799AD9F1B713F8F000FCD95 /* XMPPMessage+XEP_0333.h in Headers */,
+				57A8E6091C1107EE0018644F /* stringprep.h in Headers */,
+				57A8E60A1C1107EE0018644F /* idn-int.h in Headers */,
 				5799ADA41B713F8F000FCD95 /* NSXMLElement+XEP_0335.h in Headers */,
 				5799ADED1B7140C9000FCD95 /* GCDAsyncSocket.h in Headers */,
-				5799AE201B7140C9000FCD95 /* idn-int.h in Headers */,
-				5799AE251B7140C9000FCD95 /* stringprep.h in Headers */,
 				5799ADA91B713F8F000FCD95 /* DDList.h in Headers */,
 				5799ADB31B713F8F000FCD95 /* RFImageToDataTransformer.h in Headers */,
 				5799AC0D1B713F8F000FCD95 /* XMPPRosterPrivate.h in Headers */,
@@ -2357,10 +2383,10 @@
 				5799AD961B713F8F000FCD95 /* NSXMLElement+XEP_0297.h in Headers */,
 				5799AD9B1B713F8F000FCD95 /* XMPPMessage+XEP_0308.h in Headers */,
 				5799ADA01B713F8F000FCD95 /* XMPPMessage+XEP_0333.h in Headers */,
+				57A8E6061C1107E50018644F /* stringprep.h in Headers */,
+				57A8E6071C1107E50018644F /* idn-int.h in Headers */,
 				5799ADA51B713F8F000FCD95 /* NSXMLElement+XEP_0335.h in Headers */,
 				5799ADEE1B7140C9000FCD95 /* GCDAsyncSocket.h in Headers */,
-				5799AE211B7140C9000FCD95 /* idn-int.h in Headers */,
-				5799AE261B7140C9000FCD95 /* stringprep.h in Headers */,
 				5799ADAA1B713F8F000FCD95 /* DDList.h in Headers */,
 				5799ADB41B713F8F000FCD95 /* RFImageToDataTransformer.h in Headers */,
 				5799AC0E1B713F8F000FCD95 /* XMPPRosterPrivate.h in Headers */,
@@ -3135,6 +3161,7 @@
 		};
 		5799A9DF1B711E5F000FCD95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57A8E5F71C1104640018644F /* environment.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -3153,7 +3180,6 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_BITCODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -3174,9 +3200,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../Vendor/libidn\"";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -3212,6 +3236,7 @@
 		};
 		5799A9E01B711E5F000FCD95 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57A8E5F71C1104640018644F /* environment.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -3230,7 +3255,6 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_BITCODE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -3245,9 +3269,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../Vendor/libidn\"";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_CFLAGS = (
